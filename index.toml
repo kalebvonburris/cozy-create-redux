@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
@@ -101,11 +101,6 @@ hash = "dfefcc67e4c0de95cf4b32bc22811d565f84a50c11700616063e335954d96096"
 metafile = true
 
 [[files]]
-file = "mods/create-industry.pw.toml"
-hash = "27ba9439d6b25314cfca911c474a9a34933dc7a25b4ee42ae3f2782f8d03b676"
-metafile = true
-
-[[files]]
 file = "mods/create-power-chip.pw.toml"
 hash = "1f8686fedbfa6140f1d385ab9ef36acfb9fc472866694a2ff69073a71ceb192a"
 metafile = true
@@ -147,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
@@ -163,6 +158,16 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
+metafile = true
+
+[[files]]
+file = "mods/distant-horizons.pw.toml"
+hash = "1bbe182b3a43c998b702e565e7f061125a491c5ee385fd9b050de0faaf28647f"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "c3e0dd6a4bac728f3f892616af7e78ce363df113b0fe11daf95f17a32d68ef1a"
 metafile = true
 
 [[files]]
@@ -191,8 +196,23 @@ hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "2863a3b187723e1f69ed2ad2b2c3d834e8442468a1347c80df5b310e243c8753"
+metafile = true
+
+[[files]]
+file = "mods/iris-flywheel-compat.pw.toml"
+hash = "b09dfb336204fb3b61342f4e5310ef57d9913b32bfa8d256b5225fc10f535cf0"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+metafile = true
+
+[[files]]
+file = "mods/irisshaders.pw.toml"
+hash = "763ed0c115b2b9a1e37e38cb153748c9c3f3c31869fd3d56acfaad54c63e78af"
 metafile = true
 
 [[files]]
@@ -237,12 +257,17 @@ metafile = true
 
 [[files]]
 file = "mods/power-grid.pw.toml"
-hash = "d8a997c508417eff07068e7ee5e5e501a6ae6e44fb4592829d077fe4a3b73ec3"
+hash = "22cf5579fbc67af2ac84358af3c390c6235fabd6cd6cc3828021349b588f4bdb"
 metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "89b9434e40a39e9a2de633b00d8dac3e1081db7c9632512fbc07e68f0ccbe547"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
 
 [[files]]
@@ -263,6 +288,11 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "30172206e910599e13e40746a425338f0aa010b8f5f12ecdbb8ee32d08c61f31"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "6ab228a1fa98348b7444c0715e4db592414d2102e441671ac5e79066596a912c"
 metafile = true
 
 [[files]]
@@ -296,6 +326,26 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
+file = "mods/tfmg-community-edition.pw.toml"
+hash = "5f6008a44da027dc14cec20ccc50293ce85f0c0ed175e5f0d0bdc6a95f2ee294"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "42b53ca74c99b3d0edb2ef4e07896b269fd058e049e44e8503d8fd921342eee8"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "64670072fa3b4db4a721769dd3d66a2865daac01c9a2480b9561675b1e9e9737"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "f8cc300d53ae8bf71d77124e6c46a5e85fe31654b39c5d73a1652a4d9c404af4"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
 metafile = true
