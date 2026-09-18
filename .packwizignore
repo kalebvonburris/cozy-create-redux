@@ -1,0 +1,13 @@
+cat > .packwizignore <<'EOF'
+.direnv/
+.git/
+.envrc
+result
+result-*
+*.zip
+flake.nix
+flake.lock
+*.sh
+README.md
+EOF
+rm -f index.toml

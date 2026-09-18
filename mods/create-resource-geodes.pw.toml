@@ -1,0 +1,13 @@
+name = "Resource Geodes & Catalysts"
+filename = "createresourcegeodes-neoforge-1.21.1-0.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "792ae0c52e3cf80cbd1f7036378837c85540d5a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7362931
+project-id = 952886

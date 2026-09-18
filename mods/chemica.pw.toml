@@ -1,0 +1,13 @@
+name = "Chemica"
+filename = "chemica-0.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "90d1446b6fa8b7531863cc51782f23faa1ae9613"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8188060
+project-id = 1351412
