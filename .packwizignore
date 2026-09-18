@@ -1,13 +1,11 @@
-cat > .packwizignore <<'EOF'
-.direnv/
 .git/
+.github/
+.direnv/
 .envrc
-result
-result-*
-*.zip
 flake.nix
 flake.lock
-*.sh
 README.md
-EOF
-rm -f index.toml
+result
+result-*
+server/
+*.zip

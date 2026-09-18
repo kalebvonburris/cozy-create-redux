@@ -1,0 +1,48 @@
+name: Build Package Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+
+      # Fixed-output derivations need network; runners have it.
+      # Every mod is fetched by the hash packwiz recorded, so a wrong
+      # or moved file fails the build here instead of on a player's machine.
+      - name: Build client
+        run: nix build .#client -o result-client --print-build-logs
+
+      - name: Build server
+        run: nix build .#server -o result-server --print-build-logs
+
+      # Store outputs are read-only and mods are copied (not symlinked),
+      # so dereference once and restore write bits before zipping.
+      - name: Package
+        run: |
+          set -euo pipefail
+          tag="${GITHUB_REF_NAME}"
+          for side in client server; do
+            rm -rf "$side"
+            cp -rL "result-$side" "$side"
+            chmod -R u+w "$side"
+            ( cd "$side" && zip -qr "../cozy-create-$side-$tag.zip" . )
+            ls -la "cozy-create-$side-$tag.zip"
+          done
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            cozy-create-client-*.zip
+            cozy-create-server-*.zip
+          generate_release_notes: true
