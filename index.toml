@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "b8e2705fef6e92a224508cd09a5e77f5600937e8f519d229bc7437156128faf3"
+metafile = true
+
+[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "ff3ae9bae59b91406577910119f4eeab80a6148f0fb661a3e88cf819943b20d2"
 metafile = true
@@ -61,6 +66,11 @@ hash = "48ccf754257a1d140c12e4cee3bd7901392023fcd5a3fc961b7275448459fe73"
 metafile = true
 
 [[files]]
+file = "mods/caelus.pw.toml"
+hash = "992b0dca9683f225fc774d779762d18a009f2d82b9d051e7c0b55a33a95d9238"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "e42363c32c9b6323eea977283c928cec373bfc415534ec92e9c3367ee8c54256"
 metafile = true
@@ -78,6 +88,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
+metafile = true
+
+[[files]]
+file = "mods/common-storage-lib.pw.toml"
+hash = "9f7ce01579bfa07cd81b9caf3222bcead5e1dd44f7f22e1b016ac91b4095144d"
 metafile = true
 
 [[files]]
@@ -216,6 +231,16 @@ hash = "28fa7ee636f28a2868359b7b3398b04b969e98e4da5c6b7dd6b91707d7991081"
 metafile = true
 
 [[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "5345bb641d6b9307c6a05f12885315537386519476bd2aee79d9fd1181268a7a"
+metafile = true
+
+[[files]]
+file = "mods/konkrete.pw.toml"
+hash = "e8ad4c0b1a01858f6d653672472641f24aeacf7d6fb3b63a4358157312381a76"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
 metafile = true
@@ -233,6 +258,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "1813b429f0782edb4d0c428f00da0c760acea32ede566656588af99c6ad10a11"
+metafile = true
+
+[[files]]
+file = "mods/modular-item-api.pw.toml"
+hash = "623e51a6107e28bb927a66d6cb67717a288177144a64e048c717910f7a03a7fa"
 metafile = true
 
 [[files]]
@@ -256,8 +286,23 @@ hash = "89b9434e40a39e9a2de633b00d8dac3e1081db7c9632512fbc07e68f0ccbe547"
 metafile = true
 
 [[files]]
+file = "mods/re-avaritia.pw.toml"
+hash = "d9d78cb442bc4c7b2a5917f2e57968750762558eb381a2a630dd0d5e6244e0cc"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "89d21f5da7fea8b1197c6e8e5215d45f7400844560e0f7c179d3c6145bd36a95"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
 
 [[files]]
@@ -318,6 +363,26 @@ metafile = true
 [[files]]
 file = "mods/tfmg-community-edition.pw.toml"
 hash = "5f6008a44da027dc14cec20ccc50293ce85f0c0ed175e5f0d0bdc6a95f2ee294"
+metafile = true
+
+[[files]]
+file = "mods/truly-modular-archery.pw.toml"
+hash = "f2f58e64bbbc1a9ebbc3af9d0f8640e6ee3122511cb9402892989ab7f9935b5c"
+metafile = true
+
+[[files]]
+file = "mods/truly-modular-armory.pw.toml"
+hash = "715d535dfd9c17a7e81deedd26cd799f2ee0213612434007c5a231b57e99b808"
+metafile = true
+
+[[files]]
+file = "mods/truly-modular-arsenal.pw.toml"
+hash = "ebd332cdde26be895f2342da80909bde97e126c0f77a3a098314d5eecbfbfa56"
+metafile = true
+
+[[files]]
+file = "mods/ultimate-avaritia-additions.pw.toml"
+hash = "0204de51feb77a931d96ea7715b5858d0de6febff0c7e851dee065df905fd538"
 metafile = true
 
 [[files]]

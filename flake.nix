@@ -16,6 +16,11 @@
       mcVersion = pack.versions.minecraft;
       neoVersion = pack.versions.neoforge;
 
+      # Where the built client re-syncs from on every launch. A branch ref
+      # means players track main; a tag ref pins them until you move it.
+      packUrl =
+        "https://github.com/kalebvonburris/cozy-create-redux/raw/main/pack.toml";
+
       # parse every *.pw.toml in a directory
       readPwTomls = dir:
         if !builtins.pathExists dir then [ ]
@@ -89,6 +94,15 @@
         lib.optionalString (builtins.pathExists (./. + "/${rel}"))
           ''cp -r ${./. + "/${rel}"} "${dest}"'';
 
+      # Runs before the game starts, inside the instance. Reads packUrl,
+      # adds what is new, removes what is gone, then launches. This is the
+      # only thing that makes an imported zip self-updating; a zip alone is
+      # frozen at build time.
+      packwizBootstrap = pkgs: pkgs.fetchurl {
+        url = "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar";
+        hash = "sha256-qPuyTcYEJ46X9GiOgtPZGjGLmO/AjV2/y8vKtkQ9EWw=";
+      };
+
       neoInstaller = pkgs: pkgs.fetchurl {
         url = "https://maven.neoforged.net/releases/net/neoforged/neoforge/${neoVersion}/neoforge-${neoVersion}-installer.jar";
         # pinned for 21.1.250; bump this when you bump pack.toml
@@ -102,6 +116,8 @@
         client = pkgs.runCommand "cozy-create-client" { } ''
           mkdir -p "$out/.minecraft"
           cp -r ${modsDir pkgs "client"} "$out/.minecraft/mods"
+          install -m644 ${packwizBootstrap pkgs} \
+            "$out/.minecraft/packwiz-installer-bootstrap.jar"
           ${copyIfPresent "config" "$out/.minecraft/config"}
           ${copyIfPresent "kubejs" "$out/.minecraft/kubejs"}
           ${copyIfPresent "resourcepacks" "$out/.minecraft/resourcepacks"}
@@ -119,13 +135,21 @@
           }
           EOF
 
-          cat > "$out/instance.cfg" <<EOF
+          cat > "$out/instance.cfg" <<'EOF'
           InstanceType=OneSix
-          name=${pack.name} ${pack.version}
+          name=@NAME@
+          notes=Re-syncs from @PACKURL@ on every launch. Mods added by hand get removed.
+          OverrideCommands=true
+          PreLaunchCommand="$INST_JAVA" -jar packwiz-installer-bootstrap.jar -g -s client @PACKURL@
           OverrideMemory=true
           MinMemAlloc=4096
           MaxMemAlloc=8192
           EOF
+          # $INST_JAVA is substituted by Prism at launch, so the heredoc above
+          # is quoted to keep it literal; the real values go in after.
+          substituteInPlace "$out/instance.cfg" \
+            --replace '@NAME@' '${pack.name} ${pack.version}' \
+            --replace '@PACKURL@' '${packUrl}'
         '';
 
         # nix build .#server  ->  server files. unzip, ./start.sh.

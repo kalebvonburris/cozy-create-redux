@@ -1,0 +1,13 @@
+name = "Truly Modular: Armory"
+filename = "Truly-Modular-armory-armory-forge-2.2-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6mUV27DN/versions/hZbHexQd/Truly-Modular-armory-armory-forge-2.2-1.21.jar"
+hash-format = "sha512"
+hash = "91c47bfd1df67a689a7de9da5a088d386c7c9e6f6159ce3062594004b0ac34dd634935c39363fc7e33651913c7711aaf359b1d3cf6afe960aef49620dd69aec2"
+
+[update]
+[update.modrinth]
+mod-id = "6mUV27DN"
+version = "hZbHexQd"

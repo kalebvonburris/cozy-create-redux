@@ -1,0 +1,13 @@
+name = "Ultimate Avaritia Additions"
+filename = "Ultimate Avaritia Additions-1.21.1-1.0.0-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6007944b86b0c058fe4b387f6e02900b3e79b56"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8750475
+project-id = 1671245

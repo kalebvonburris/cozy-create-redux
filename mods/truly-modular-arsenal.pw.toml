@@ -1,0 +1,13 @@
+name = "Truly Modular: Arsenal"
+filename = "Truly-Modular-arsenal-arsenal-forge-2.4-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V4LaId7f/versions/dHLBaeMU/Truly-Modular-arsenal-arsenal-forge-2.4-1.21.jar"
+hash-format = "sha512"
+hash = "fe3c3c4339c5e6d9bb623d4bf635ede4e86156331bc77ceb5c53c1bd6c98f10375a088c8ddee8614dc26585f52dfbffeae8f4eeeb56ccedda1963befcaf00c19"
+
+[update]
+[update.modrinth]
+mod-id = "V4LaId7f"
+version = "dHLBaeMU"
