@@ -14,13 +14,16 @@ pack_url="$1"
 name="${2:-Cozy Create}"
 
 case "$pack_url" in
-  http://*|https://*) ;;
-  *) echo "make-instance: pack url must be http(s)" >&2; exit 1 ;;
+http://* | https://*) ;;
+*)
+  echo "make-instance: pack url must be http(s)" >&2
+  exit 1
+  ;;
 esac
 
 case "$pack_url" in
-  *pack.toml) ;;
-  *) echo "make-instance: warning, url does not end in pack.toml" >&2 ;;
+*pack.toml) ;;
+*) echo "make-instance: warning, url does not end in pack.toml" >&2 ;;
 esac
 
 work="$(mktemp -d)"
@@ -37,7 +40,7 @@ curl -sSfL -o "$mc/packwiz-installer-bootstrap.jar" "$boot_url"
 
 # Prism reads the loader stack from here. The NeoForge version must match
 # what packwiz wrote into pack.toml, or the client and server disagree.
-cat > "$work/mmc-pack.json" <<'JSON'
+cat >"$work/mmc-pack.json" <<'JSON'
 {
     "components": [
         {
@@ -55,7 +58,7 @@ cat > "$work/mmc-pack.json" <<'JSON'
                 }
             ],
             "uid": "net.neoforged",
-            "version": "21.1.209"
+            "version": "21.1.250"
         }
     ],
     "formatVersion": 1
@@ -64,7 +67,7 @@ JSON
 
 # OverrideCommands plus PreLaunchCommand is the whole auto-update mechanism.
 # $INST_JAVA and $INST_MC_DIR are substituted by Prism at launch, not here.
-cat > "$work/instance.cfg" <<CFG
+cat >"$work/instance.cfg" <<CFG
 InstanceType=OneSix
 name=$name
 notes=Syncs from $pack_url on every launch. Do not add mods by hand, they get removed.
@@ -78,7 +81,7 @@ CFG
 
 out="$PWD/friend-instance.zip"
 rm -f "$out"
-( cd "$work" && zip -qr "$out" . )
+(cd "$work" && zip -qr "$out" .)
 
 echo "wrote $out ($(du -h "$out" | cut -f1))"
 echo
