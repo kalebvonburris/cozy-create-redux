@@ -171,11 +171,6 @@ hash = "1f8686fedbfa6140f1d385ab9ef36acfb9fc472866694a2ff69073a71ceb192a"
 metafile = true
 
 [[files]]
-file = "mods/create-power-loader.pw.toml"
-hash = "3872eeb409b1a2b5acdf5a270825a9e703e240ee8230a08b820a21c19f14c27e"
-metafile = true
-
-[[files]]
 file = "mods/create-reautomated-traces.pw.toml"
 hash = "f7e5f6d6aa591e54c3402584557bae2375157fa73160ec6c5b66fc15018df0b9"
 metafile = true
@@ -351,6 +346,11 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "365e4a170765f0db88454b1138652df66f51bd42b18b8eee1786ea48ed8b324e"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
@@ -468,6 +468,16 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "51c911d05e42b074fea01a74cb05050fa15164eed8a5d137cf0f64ecc16ed861"
 metafile = true
 
 [[files]]
