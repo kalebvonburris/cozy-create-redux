@@ -1,0 +1,13 @@
+name = "Scannable"
+filename = "scannable-MC1.21.1-neoforge-1.8.0+d42c576.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e649030e1b5856c286243f2c42a1e06e9c03f880"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8719707
+project-id = 266784
