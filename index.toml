@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "97f01477fa1265d95e3d3df96bbd7ee623cb3e1d30a19e497002dae9130a696b"
+hash = "5295ff6f29bece08dd939ea7d50b6092856995113ef30411b06c7580f6a30e20"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "f17b239b9bbf7ba084f33d71699082f112ffdb77a3bd39af877c6a0da961ede1"
+hash = "817a648bfb6607e4120e9f864b8bef71001211de4bec07b471a94e0e8942c59b"
 metafile = true
 
 [[files]]
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "28fa7ee636f28a2868359b7b3398b04b969e98e4da5c6b7dd6b91707d7991081"
+hash = "c1c9ce7d9bce805f15e158383f68c94333a4705c3755b1f2277dce6c5a5ae5a5"
 metafile = true
 
 [[files]]
@@ -337,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/mezzconfig.pw.toml"
-hash = "57e6050e4ac9100cb4f6028a84ac9e7f09d6dd8c76813276cae6b255b710238b"
+hash = "dd3830820c683676dd7e37cbbe906f3b1449f9d3825d8fbcfd148766c073eae5"
 metafile = true
 
 [[files]]
@@ -437,7 +437,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "db7288121ed92b50f70b67886919279445ff115a6b078c31c2897ab8204ca44a"
+hash = "4447f298596245cf7990175f85aadf51f3c39e9749deea092717769345d063a1"
 metafile = true
 
 [[files]]
@@ -447,12 +447,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "03ad55d6aa8f143fced561ef90d2cf075e08db92046f75f4281accd6c7cfb201"
+hash = "9e324cddedb5c8a25b577a4fcf23cb27e96ae4cb638b57854fac68dda294c20f"
 metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "30172206e910599e13e40746a425338f0aa010b8f5f12ecdbb8ee32d08c61f31"
+hash = "aa39c956bc3e2ab77d27d56d8ed163d50aa3d937263454084f0e256d26e06037"
 metafile = true
 
 [[files]]
@@ -497,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "51c911d05e42b074fea01a74cb05050fa15164eed8a5d137cf0f64ecc16ed861"
+hash = "68ef590d29c127c6b38d81662edfa45a2e1339d38f60aee345e31164c7c10017"
 metafile = true
 
 [[files]]
@@ -543,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "f139ff8d596a050f140c50a54866bbbd454833e4014227986a716c39a7dbe535"
+metafile = true
+
+[[files]]
+file = "plugins/distant-horizons-support.pw.toml"
+hash = "8ced273230454a4d8eae3e3110cf9dcfb8624c29378ca15b4ad3ab55d9a8e7e8"
 metafile = true
 
 [[files]]

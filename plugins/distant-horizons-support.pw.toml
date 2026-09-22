@@ -1,0 +1,13 @@
+name = "Distant Horizons Support"
+filename = "DistantHorizonsSupport-0.14.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34ddd597372dd5357ac824fad2f05122da2c2d60"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8412471
+project-id = 1327122
