@@ -146,6 +146,11 @@ hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
 
 [[files]]
+file = "mods/create-applied-kinetics.pw.toml"
+hash = "d9194e55e2db6d1a8712b6356ba81d03a081c2a5a3fccf9a03ed89ceb124d984"
+metafile = true
+
+[[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "b6ac94e91f766466186d350ed45a79fdcf7805f34d9170ccc8612ff47983a5f5"
 metafile = true
@@ -168,6 +173,11 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "dfefcc67e4c0de95cf4b32bc22811d565f84a50c11700616063e335954d96096"
+metafile = true
+
+[[files]]
+file = "mods/create-more-automation.pw.toml"
+hash = "98529319b5d29ab964fc50de21776bd387b78aadceca88d15e076e07d6c000eb"
 metafile = true
 
 [[files]]
@@ -251,6 +261,21 @@ hash = "f9e6dd1d85322833d9d3440446e569340ef52e23a5ce2149ddedec1c49b24efc"
 metafile = true
 
 [[files]]
+file = "mods/ender-io-conduit-optimizer.pw.toml"
+hash = "e643da2919468346bd42cef9c5196d252eddb1ada9e5898eead0c132e52d7306"
+metafile = true
+
+[[files]]
+file = "mods/ender-io.pw.toml"
+hash = "5f63fab4db6ca36f3b9f489dd1bb52fb1d1a69a3f0ff580758d083d606ff2600"
+metafile = true
+
+[[files]]
+file = "mods/enderio-evolution.pw.toml"
+hash = "a50b217b9d1177125366a9914bb1434203a0a92fb4ed9a515f395f8d2495b511"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "817a648bfb6607e4120e9f864b8bef71001211de4bec07b471a94e0e8942c59b"
 metafile = true
@@ -307,7 +332,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "c1c9ce7d9bce805f15e158383f68c94333a4705c3755b1f2277dce6c5a5ae5a5"
+hash = "1852c162a57adb3e790ce993c024626ed62026ff5bd9591fac1be61637deae5c"
 metafile = true
 
 [[files]]
