@@ -136,6 +136,11 @@ hash = "8e671fbd3a5460a61073cced391ec08efc6b67d765e49015eea45a1f1db159a0"
 metafile = true
 
 [[files]]
+file = "mods/craftable-netherite-upgrade-template.pw.toml"
+hash = "8be558119efdd595741a07361c12d6fdfc32cc5da192d67fed08ade76e454c09"
+metafile = true
+
+[[files]]
 file = "mods/crafting-on-a-stick.pw.toml"
 hash = "9e1fd510d8a87878dd151638ca19474493c814e3576ad3900006b265c28a02df"
 metafile = true
