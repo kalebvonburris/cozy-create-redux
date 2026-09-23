@@ -120,6 +120,8 @@
             "$out/.minecraft/packwiz-installer-bootstrap.jar"
           ${copyIfPresent "config" "$out/.minecraft/config"}
           ${copyIfPresent "kubejs" "$out/.minecraft/kubejs"}
+          ${copyIfPresent "defaultconfigs" "$out/defaultconfigs"}
+          ${copyIfPresent "defaultconfigs" "$out/.minecraft/defaultconfigs"}
           ${copyIfPresent "resourcepacks" "$out/.minecraft/resourcepacks"}
           ${lib.optionalString (shaders != [ ])
             ''cp -r ${shadersDir pkgs} "$out/.minecraft/shaderpacks"''}
@@ -197,7 +199,7 @@
             rm -rf "$dir/mods"
             cp -r "$src/mods" "$dir/mods"
             cp "$src/neoforge-installer.jar" "$src/start.sh" "$src/VERSION" "$dir/"
-            for d in config kubejs; do
+            for d in config kubejs defaultconfigs; do
               if [ -d "$src/$d" ] && [ ! -d "$dir/$d" ]; then cp -r "$src/$d" "$dir/$d"; fi
             done
             chmod -R u+w "$dir"
