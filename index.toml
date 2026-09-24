@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "defaultconfigs/apokinetics-server.toml"
+hash = "3b17dcf5b2f6195ecb6eb48c370a1aefc309cd2504e6679e5740bf548ef8bc76"
+
+[[files]]
+file = "defaultconfigs/openpartiesandclaims-server.toml"
+hash = "8512eb7f103e45ac97875731f083d107c30e81d796baa810abfc3d3dd33c3a75"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "b8e2705fef6e92a224508cd09a5e77f5600937e8f519d229bc7437156128faf3"
 metafile = true
@@ -41,8 +49,13 @@ hash = "782c315b1fd4a3c0cf20ce41ea140cf271d030e8335676f6452e0d2dd0ea490f"
 metafile = true
 
 [[files]]
+file = "mods/apotheosis-create-recipe.pw.toml"
+hash = "1ce3aaf14e7ccbafb8ab794c40979ad256ab67354dec93b54d67fec5a050b448"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "56cda0db97df8abb2b7e907f4836eff30376654d84dc6b03352dee9cf94e081b"
+hash = "6f606f19c073ea9a45fde58115a2ba5f9f45c8bcb0934372347be90c88cc7f8b"
 metafile = true
 
 [[files]]
@@ -257,7 +270,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-power-chip.pw.toml"
-hash = "1f8686fedbfa6140f1d385ab9ef36acfb9fc472866694a2ff69073a71ceb192a"
+hash = "e58897137e9917ff76566807eb9ac93a8639635d4f9301d6a84a7bab4a63fbfc"
 metafile = true
 
 [[files]]

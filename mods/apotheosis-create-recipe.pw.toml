@@ -1,0 +1,13 @@
+name = "Create: Apotheosis Automation"
+filename = "apotheosis_create-1.1.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a17189b3e76f06f5d7fc1a20980236d915a3151"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8510023
+project-id = 1455318
