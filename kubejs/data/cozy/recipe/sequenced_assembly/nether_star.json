@@ -1,0 +1,151 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:nether_star_dust"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 90.0,
+      "id": "minecraft:nether_star"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "id": "minecraft:nether_star"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nether_star"
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_nether_star"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nether_star"
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_nether_star"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nether_star"
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_nether_star"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nether_star"
+        },
+        {
+          "item": "minecraft:soul_sand"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_nether_star"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nether_star"
+        },
+        {
+          "item": "minecraft:soul_sand"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_nether_star"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nether_star"
+        },
+        {
+          "item": "minecraft:soul_sand"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_nether_star"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nether_star"
+        },
+        {
+          "item": "minecraft:soul_sand"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_nether_star"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nether_star"
+        },
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_nether_star"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:incomplete_nether_star"
+  }
+}

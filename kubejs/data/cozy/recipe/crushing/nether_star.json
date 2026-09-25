@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    { "item": "minecraft:nether_star" }
+  ],
+  "processing_time": 250,
+  "results": [
+    { "id": "kubejs:nether_star_dust" },
+    { "chance": 0.5, "id": "kubejs:nether_star_dust" },
+    { "chance": 0.5, "id": "kubejs:nether_star_dust" },
+    { "chance": 0.5, "id": "kubejs:nether_star_dust" }
+  ]
+}

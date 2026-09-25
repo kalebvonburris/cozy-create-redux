@@ -199,6 +199,8 @@
             rm -rf "$dir/mods"
             cp -r "$src/mods" "$dir/mods"
             cp "$src/neoforge-installer.jar" "$src/start.sh" "$src/VERSION" "$dir/"
+            rm -rf "$dir/kubejs"
+            if [ -d "$src/kubejs" ]; then cp -r "$src/kubejs" "$dir/kubejs"; fi
             for d in config kubejs defaultconfigs; do
               if [ -d "$src/$d" ] && [ ! -d "$dir/$d" ]; then cp -r "$src/$d" "$dir/$d"; fi
             done
