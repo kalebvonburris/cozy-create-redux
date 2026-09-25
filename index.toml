@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".githooks/pre-commit"
+hash = "5c9d1102050e87616d7c98d58ef60a5d1d8efc317cbb4bc01d47f560ce0dc902"
+
+[[files]]
 file = "defaultconfigs/apokinetics-server.toml"
 hash = "3b17dcf5b2f6195ecb6eb48c370a1aefc309cd2504e6679e5740bf548ef8bc76"
 

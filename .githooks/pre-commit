@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+if command -v packwiz >/dev/null 2>&1; then
+  packwiz refresh
+else
+  nix run nixpkgs#packwiz -- refresh
+fi
+git add index.toml pack.toml

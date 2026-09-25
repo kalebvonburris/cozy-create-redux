@@ -222,6 +222,7 @@
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
           packages = with pkgs; [ packwiz jq curl zip unzip ];
+          shellHook = ''git config core.hooksPath .githooks'';
         };
       });
     };
