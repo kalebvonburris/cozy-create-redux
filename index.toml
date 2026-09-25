@@ -9,6 +9,30 @@ file = "defaultconfigs/openpartiesandclaims-server.toml"
 hash = "8512eb7f103e45ac97875731f083d107c30e81d796baa810abfc3d3dd33c3a75"
 
 [[files]]
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "5029eb73cc4fa4f2fcb35a24b10011aac606bda366944be8c04b4dc4cd4cfee7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_nether_star.png"
+hash = "d8a9a505c539c1e7ed8afdd24a4410f12f0646c6461627c353d913689873e09b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/nether_star_dust.png"
+hash = "79be2bbcc152c777e26f752b720a9ce83e79d16d32f482f284b3504ccb8f0644"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/crushing/nether_star.json"
+hash = "3ad97d4da04b58e478500aecfeecf1ffeeb31f3c6eff34a7d4c14cb85c35fd3d"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/sequenced_assembly/nether_star.json"
+hash = "7d895c36f476e9f1d2210e6400a9be156c96b0f76adf52ea64fa48f4ce76fdf1"
+
+[[files]]
+file = "kubejs/startup_scripts/nether_star.js"
+hash = "eb349265ea634b12c2db35dc09b01698895176647e840db757448aa37c75ee26"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "b8e2705fef6e92a224508cd09a5e77f5600937e8f519d229bc7437156128faf3"
 metafile = true
