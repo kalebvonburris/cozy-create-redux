@@ -14,7 +14,7 @@ hash = "3b17dcf5b2f6195ecb6eb48c370a1aefc309cd2504e6679e5740bf548ef8bc76"
 
 [[files]]
 file = "defaultconfigs/openpartiesandclaims-server.toml"
-hash = "8512eb7f103e45ac97875731f083d107c30e81d796baa810abfc3d3dd33c3a75"
+hash = "736d15c8bd0e517130062f5dd084c1829433f2bde2bc0f970a758ae8bcf5c560"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
