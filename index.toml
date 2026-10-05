@@ -73,11 +73,6 @@ file = "kubejs/startup_scripts/sifter_meshes.js"
 hash = "c4ec324ea66f7785d5d7a538595ce5e60250d24ec13a1c5428f799f48f72558b"
 
 [[files]]
-file = "mods/ad-astra.pw.toml"
-hash = "b8e2705fef6e92a224508cd09a5e77f5600937e8f519d229bc7437156128faf3"
-metafile = true
-
-[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "ff3ae9bae59b91406577910119f4eeab80a6148f0fb661a3e88cf819943b20d2"
 metafile = true
