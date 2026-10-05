@@ -3,11 +3,11 @@ filename = "chemica-1.21.1-0.7.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5286a27d34b33e309e5bf07b76b6c598cc45eda9"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/E6GusVzz/versions/vVp5FCYf/chemica-1.21.1-0.7.0.jar"
+hash-format = "sha512"
+hash = "a95e459bbe20db9ce547b7de731fa69fcc3ec10c132ca13215cfe8949e892ae53f71a90935191e21dadc1c5a4c65df3611d3c4265eb3b005fa378fad3396ed0a"
 
 [update]
-[update.curseforge]
-file-id = 9013175
-project-id = 1351412
+[update.modrinth]
+mod-id = "E6GusVzz"
+version = "vVp5FCYf"

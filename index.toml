@@ -29,6 +29,22 @@ file = "kubejs/assets/kubejs/textures/item/nether_star_dust.png"
 hash = "79be2bbcc152c777e26f752b720a9ce83e79d16d32f482f284b3504ccb8f0644"
 
 [[files]]
+file = "kubejs/data/cozy/recipe/compacting/crushed_raw_copper_to_raw.json"
+hash = "897bc683b74876d671bbe6a03c30a225122fa591d7814ee6d1ac05ef3c4613b3"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/compacting/crushed_raw_gold_to_raw.json"
+hash = "aca85228ac17cbc09138bacc6e716ac2aaedd5aab64f882dc020055a613254ae"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/compacting/crushed_raw_iron_to_raw.json"
+hash = "bc856ea51d3a7dd1a039a7c773a55a0251e809c44551e82be3c8564d1f6e0d40"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/compacting/crushed_raw_zinc_to_raw.json"
+hash = "81d8ae5ac09b39f0b9dbee9a336ff48d8321b62c3aae601e85a3711ade855ff6"
+
+[[files]]
 file = "kubejs/data/cozy/recipe/crushing/nether_star.json"
 hash = "3ad97d4da04b58e478500aecfeecf1ffeeb31f3c6eff34a7d4c14cb85c35fd3d"
 
@@ -37,8 +53,20 @@ file = "kubejs/data/cozy/recipe/sequenced_assembly/nether_star.json"
 hash = "7d895c36f476e9f1d2210e6400a9be156c96b0f76adf52ea64fa48f4ce76fdf1"
 
 [[files]]
+file = "kubejs/data/cozy/recipe/sifting/mekanism_salt_advanced_brass.json"
+hash = "195ed32e8b049cfc57b4d1b479cfcd7f721e2908415588902f34564c2c203aff"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/sifting/mekanism_salt_brass.json"
+hash = "1645e0f0539752fb11ba3a419c2edb8f2e6362b99b8ffea16a277086b0af4be5"
+
+[[files]]
 file = "kubejs/startup_scripts/nether_star.js"
-hash = "eb349265ea634b12c2db35dc09b01698895176647e840db757448aa37c75ee26"
+hash = "e927ee65382e4cd781abfa53fb8b43073b0b2d1572b67ca730a8f61f23074515"
+
+[[files]]
+file = "kubejs/startup_scripts/sifter_meshes.js"
+hash = "c4ec324ea66f7785d5d7a538595ce5e60250d24ec13a1c5428f799f48f72558b"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -182,7 +210,7 @@ metafile = true
 
 [[files]]
 file = "mods/chemica.pw.toml"
-hash = "ace3e89369a3bf48a7895dcaa142e99820e204ac7a2b62f7ad480ecbdbf266aa"
+hash = "faca2f9e380d7d40f012903b24cab187b828a19c8696702738c84cbd4487c512"
 metafile = true
 
 [[files]]
@@ -233,6 +261,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-automated-logistics.pw.toml"
 hash = "093ad9aaa8cd02867af5420e3ac504526e841b93203b81b435129310eea6daea"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-mekanism-compatibility.pw.toml"
+hash = "ee6117ffe4f55e4d01eae338487ec52295ab6703d82809ce56fd76c8c1e4e3a9"
 metafile = true
 
 [[files]]
@@ -506,6 +539,11 @@ hash = "dff78a2bb35aed61cf73edaf1913c1fafec2a3a50551e022648c658cc21e32f9"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-mekanism-multiblocks.pw.toml"
+hash = "f1ea6ce3347c52e404cb9cc542cf94c93999f441b6215970db1b6ef98605402f"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "f61a3526d323d232fbac74dedb5d89e07f45981db1c5a705c66dbe5da7507a68"
 metafile = true
@@ -556,6 +594,16 @@ hash = "0ec2ceb5602df266d2e07bdc0bc409cdd3d325a6b5136554787779cdf8057a27"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-ponders.pw.toml"
+hash = "21ad99c8977e8ce8268c927c58a6a01408c5c0fdacee7d73882419ee9815d8cf"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-tfmg-compat.pw.toml"
+hash = "fd9cfd7b3f10bdc3f46fcf91aa4fd24b769949480a9e773b59a7338ada817c0e"
+metafile = true
+
+[[files]]
 file = "mods/mekanism.pw.toml"
 hash = "42061fd570a0b7a8063c0860056c6391593190caa0f12d3b49105e52a56817fe"
 metafile = true
@@ -573,6 +621,11 @@ metafile = true
 [[files]]
 file = "mods/modular-item-api.pw.toml"
 hash = "623e51a6107e28bb927a66d6cb67717a288177144a64e048c717910f7a03a7fa"
+metafile = true
+
+[[files]]
+file = "mods/more-mekanism-processing.pw.toml"
+hash = "c4c833c881e3a9b0de7333be6de247ccb78175f66640d69ac722dd402a95e782"
 metafile = true
 
 [[files]]
@@ -602,7 +655,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "365e4a170765f0db88454b1138652df66f51bd42b18b8eee1786ea48ed8b324e"
+hash = "253a0406b852eabd99eae30dcf51495cf739334033226e2253e5c5435ae333c1"
 metafile = true
 
 [[files]]
@@ -677,7 +730,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "d99554cf4022a273d2cc8108ed590c39965d244e3177316397f6cacc72cd2eb0"
+hash = "17d1fd2acd424ca53d3dc71b167e0f7e995ef112c46c9a0efd96b369729ef005"
 metafile = true
 
 [[files]]
