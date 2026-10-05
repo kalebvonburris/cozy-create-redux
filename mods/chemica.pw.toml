@@ -1,13 +1,13 @@
 name = "Chemica"
-filename = "chemica-0.6.0.jar"
+filename = "chemica-1.21.1-0.7.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "90d1446b6fa8b7531863cc51782f23faa1ae9613"
+hash = "5286a27d34b33e309e5bf07b76b6c598cc45eda9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8188060
+file-id = 9013175
 project-id = 1351412
