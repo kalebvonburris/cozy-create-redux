@@ -186,6 +186,11 @@ hash = "ace3e89369a3bf48a7895dcaa142e99820e204ac7a2b62f7ad480ecbdbf266aa"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
 file = "mods/clumps.pw.toml"
 hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
 metafile = true
@@ -288,11 +293,6 @@ metafile = true
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "962de0c35fb8d298b70ce4026fb149c5cf0204487bc1ed22d905dde1dbebd70c"
-metafile = true
-
-[[files]]
-file = "mods/create-enchantable-machinery.pw.toml"
-hash = "c56e9d5e16752de3d7c4db6c1afb1a89d714e831b151c0ff2c8ae58e8756dd4b"
 metafile = true
 
 [[files]]
@@ -573,6 +573,11 @@ metafile = true
 [[files]]
 file = "mods/modular-item-api.pw.toml"
 hash = "623e51a6107e28bb927a66d6cb67717a288177144a64e048c717910f7a03a7fa"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "d6183e3e5f6f98aa2dc8dec2491ca2a4802262007f75781ef449296f7d9671ba"
 metafile = true
 
 [[files]]
