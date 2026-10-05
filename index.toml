@@ -9,6 +9,10 @@ file = "defaultconfigs/DistantHorizons.toml"
 hash = "a13412dd650bd9745a0ac5ee5d25129a586fe99cf44a3aaa2d7b56b383a3f197"
 
 [[files]]
+file = "defaultconfigs/Mekanism/common.toml"
+hash = "135c4f3482c6581b8d48843a004a88e15389c4932540d19560fb2ed11f5c5803"
+
+[[files]]
 file = "defaultconfigs/apokinetics-server.toml"
 hash = "3b17dcf5b2f6195ecb6eb48c370a1aefc309cd2504e6679e5740bf548ef8bc76"
 
