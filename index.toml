@@ -238,11 +238,6 @@ hash = "9f7ce01579bfa07cd81b9caf3222bcead5e1dd44f7f22e1b016ac91b4095144d"
 metafile = true
 
 [[files]]
-file = "mods/compat-delight.pw.toml"
-hash = "c2fa573c0956c12092a57877b9198290fb15ba1c8cf89a6e7268a69a85ff4bd3"
-metafile = true
-
-[[files]]
 file = "mods/configurable.pw.toml"
 hash = "b360c0438bf09e6cec799babe7db640e64e54c778f9da65e10996e24c3f8e065"
 metafile = true
