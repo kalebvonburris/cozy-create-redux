@@ -1,0 +1,13 @@
+name = "Not Enough Patterns"
+filename = "nep-1.21.1-0.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "25ce29ecfb0b30efa38d4287f558335306e1f43f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8724404
+project-id = 1624304
