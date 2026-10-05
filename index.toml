@@ -693,11 +693,6 @@ hash = "d424a9260ef51bc102e56f0423d91dfabb739ccca8a86eb1c450ea631b739280"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-patterns.pw.toml"
-hash = "989e05d3b72e2328e8b936ec8a40e33b9dac6a426bcac5c934beebbe0f630ceb"
-metafile = true
-
-[[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "253a0406b852eabd99eae30dcf51495cf739334033226e2253e5c5435ae333c1"
 metafile = true
