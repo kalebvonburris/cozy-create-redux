@@ -13,10 +13,6 @@ file = "defaultconfigs/Mekanism/world.toml"
 hash = "ca042f025d10f7cbd25fbce5ab5ac366e24870d2841ebfa338159d601e1061c7"
 
 [[files]]
-file = "defaultconfigs/apokinetics-server.toml"
-hash = "3b17dcf5b2f6195ecb6eb48c370a1aefc309cd2504e6679e5740bf548ef8bc76"
-
-[[files]]
 file = "defaultconfigs/openpartiesandclaims-server.toml"
 hash = "736d15c8bd0e517130062f5dd084c1829433f2bde2bc0f970a758ae8bcf5c560"
 
@@ -126,11 +122,6 @@ hash = "6357a6f383544babd0a58808192add47a4fe6e21cc80e9796b7d34791f2d0282"
 metafile = true
 
 [[files]]
-file = "mods/apokinetics.pw.toml"
-hash = "782c315b1fd4a3c0cf20ce41ea140cf271d030e8335676f6452e0d2dd0ea490f"
-metafile = true
-
-[[files]]
 file = "mods/apotheosis-create-recipe.pw.toml"
 hash = "1ce3aaf14e7ccbafb8ab794c40979ad256ab67354dec93b54d67fec5a050b448"
 metafile = true
@@ -223,11 +214,6 @@ metafile = true
 [[files]]
 file = "mods/cccbridge.pw.toml"
 hash = "0194091946d249681e33dd32a927122e844d4093c2f14165f2f99f92e028af11"
-metafile = true
-
-[[files]]
-file = "mods/chemica.pw.toml"
-hash = "faca2f9e380d7d40f012903b24cab187b828a19c8696702738c84cbd4487c512"
 metafile = true
 
 [[files]]
@@ -437,17 +423,12 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "8913bb244d45ff085d444bd9c0ea236ffb3414a608554766140a208ac973a5a6"
+hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
 metafile = true
 
 [[files]]
 file = "mods/createaddoncompatibility.pw.toml"
 hash = "046a80051e21c0bab042ad1b7e27d42a7456fd36cfabf0454e9110ec345078fd"
-metafile = true
-
-[[files]]
-file = "mods/createnuclear.pw.toml"
-hash = "21ac1923bd543d6e50a982fa1e5ee6b427ca2e0ebc3fe8de2a0dba97641e78a9"
 metafile = true
 
 [[files]]
@@ -838,11 +819,6 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "3c3c96fdbe2e18fee97f7343c6019cb270a2f4e8d3bf66747b2bdbf1cfeb5909"
-metafile = true
-
-[[files]]
-file = "mods/tfmg-community-edition.pw.toml"
-hash = "8f0cba8a87fd4fd749a95a02e41a4754f6db3d3c96da921f4c1cbaa8a191b293"
 metafile = true
 
 [[files]]
