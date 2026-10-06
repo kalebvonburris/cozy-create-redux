@@ -66,11 +66,11 @@ hash = "1645e0f0539752fb11ba3a419c2edb8f2e6362b99b8ffea16a277086b0af4be5"
 
 [[files]]
 file = "kubejs/server_scripts/infinity_cells.js"
-hash = "71da6e2416c73afbc43ad7496492c48607c76b7d596c05f396cf27deab001b62"
+hash = "5a09602b1345b1b5a426682fb434d04334dde32e5d9441642092019a0dd3523c"
 
 [[files]]
 file = "kubejs/startup_scripts/infinity_cells.js"
-hash = "07865c606dddf771034cd0d8b14537be45643afd6440880169d633a0e781bcc2"
+hash = "a3502571c76497569e9e578d996064d641ae87c6cf424df7a71d13dcb04f256d"
 
 [[files]]
 file = "kubejs/startup_scripts/nether_star.js"

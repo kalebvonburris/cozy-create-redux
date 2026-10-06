@@ -67,8 +67,3 @@ StartupEvents.registry("item", (event) => {
     }
   });
 });
-
-// The recipe is gone; hide the item from JEI too.
-RecipeViewerEvents.removeEntries("item", (event) => {
-  event.remove("extendedae:infinity_cobblestone_cell");
-});
