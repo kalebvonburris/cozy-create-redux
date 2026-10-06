@@ -636,11 +636,6 @@ hash = "21ad99c8977e8ce8268c927c58a6a01408c5c0fdacee7d73882419ee9815d8cf"
 metafile = true
 
 [[files]]
-file = "mods/mekanism-tfmg-compat.pw.toml"
-hash = "fd9cfd7b3f10bdc3f46fcf91aa4fd24b769949480a9e773b59a7338ada817c0e"
-metafile = true
-
-[[files]]
 file = "mods/mekanism.pw.toml"
 hash = "42061fd570a0b7a8063c0860056c6391593190caa0f12d3b49105e52a56817fe"
 metafile = true
