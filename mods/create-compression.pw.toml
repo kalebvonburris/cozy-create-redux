@@ -1,0 +1,13 @@
+name = "Create Compression"
+filename = "CreateCompression-1.21.1-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bgEPzFnZ/versions/Kk4MkVdu/CreateCompression-1.21.1-2.0.0.jar"
+hash-format = "sha512"
+hash = "e89a45fda03b8403b2e0c6c730ad83df6549ffac599a551110e934305911fd478d8d4a1bedfaae2cdbc55a4c45862b7a7b9d7106bde419c35307ed41c61c8f8f"
+
+[update]
+[update.modrinth]
+mod-id = "bgEPzFnZ"
+version = "Kk4MkVdu"

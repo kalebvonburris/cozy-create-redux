@@ -65,6 +65,14 @@ file = "kubejs/data/cozy/recipe/sifting/mekanism_salt_brass.json"
 hash = "1645e0f0539752fb11ba3a419c2edb8f2e6362b99b8ffea16a277086b0af4be5"
 
 [[files]]
+file = "kubejs/server_scripts/infinity_cells.js"
+hash = "71da6e2416c73afbc43ad7496492c48607c76b7d596c05f396cf27deab001b62"
+
+[[files]]
+file = "kubejs/startup_scripts/infinity_cells.js"
+hash = "b5651fc847240387186deab80da9a599612274d68efb870b9da1ad86f77fadc7"
+
+[[files]]
 file = "kubejs/startup_scripts/nether_star.js"
 hash = "e927ee65382e4cd781abfa53fb8b43073b0b2d1572b67ca730a8f61f23074515"
 
@@ -310,6 +318,11 @@ metafile = true
 [[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "72c3a27d3fe4ae9a5aa2bba0e473f1413b5eb290383fcf579bcd4fa2138c476d"
+metafile = true
+
+[[files]]
+file = "mods/create-compression.pw.toml"
+hash = "d50da87b29b03d4ff71059c2a21cc39e3e27b0cff674f261d8c9a126636ae279"
 metafile = true
 
 [[files]]
