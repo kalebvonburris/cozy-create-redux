@@ -1,6 +1,6 @@
 .direnv/
 result
 result-*
-server*
-client*
+/server*
+/client*
 *.zip

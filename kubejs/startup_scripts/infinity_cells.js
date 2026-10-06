@@ -17,46 +17,58 @@
 //   quartz and amethyst blocks hold 4, not 9            9^6 x 4 = 2,125,764
 global.infinityCells = [
   // stone and soil, "proven" by the Create lines that make them
-  { name: 'cobblestone', item: 'minecraft:cobblestone' },
-  { name: 'dirt',        item: 'minecraft:dirt' },
-  { name: 'sand',        item: 'minecraft:sand' },
-  { name: 'gravel',      item: 'minecraft:gravel' },
-  { name: 'andesite',    item: 'minecraft:andesite' },
-  { name: 'basalt',      item: 'minecraft:basalt' },
-  { name: 'blackstone',  item: 'minecraft:blackstone' },
-  { name: 'netherrack',  item: 'minecraft:netherrack' },
-  { name: 'end_stone',   item: 'minecraft:end_stone' },
+  { name: "cobblestone", item: "minecraft:cobblestone" },
+  { name: "dirt", item: "minecraft:dirt" },
+  { name: "sand", item: "minecraft:sand" },
+  { name: "gravel", item: "minecraft:gravel" },
+  { name: "andesite", item: "minecraft:andesite" },
+  { name: "basalt", item: "minecraft:basalt" },
+  { name: "blackstone", item: "minecraft:blackstone" },
+  { name: "netherrack", item: "minecraft:netherrack" },
+  { name: "end_stone", item: "minecraft:end_stone" },
 
   // lava is proven by obsidian: every block of it consumed a lava source
-  { name: 'lava', fluid: 'minecraft:lava', cost: 'obsidian' },
+  { name: "lava", fluid: "minecraft:lava", cost: "obsidian" },
 
   // metals
-  { name: 'iron',      item: 'minecraft:iron_ingot' },
-  { name: 'gold',      item: 'minecraft:gold_ingot' },
-  { name: 'copper',    item: 'minecraft:copper_ingot' },
-  { name: 'zinc',      item: 'create:zinc_ingot' },
-  { name: 'brass',     item: 'create:brass_ingot' },
-  { name: 'netherite', item: 'minecraft:netherite_ingot' },
+  { name: "iron", item: "minecraft:iron_ingot" },
+  { name: "gold", item: "minecraft:gold_ingot" },
+  { name: "copper", item: "minecraft:copper_ingot" },
+  { name: "zinc", item: "create:zinc_ingot" },
+  { name: "brass", item: "create:brass_ingot" },
+  { name: "netherite", item: "minecraft:netherite_ingot" },
 
   // gems and minerals
-  { name: 'diamond',  item: 'minecraft:diamond' },
-  { name: 'emerald',  item: 'minecraft:emerald' },
-  { name: 'lapis',    item: 'minecraft:lapis_lazuli' },
-  { name: 'quartz',   item: 'minecraft:quartz' },
-  { name: 'redstone', item: 'minecraft:redstone' },
-  { name: 'coal',     item: 'minecraft:coal' },
-  { name: 'amethyst', item: 'minecraft:amethyst_shard' }
-]
+  { name: "diamond", item: "minecraft:diamond" },
+  { name: "emerald", item: "minecraft:emerald" },
+  { name: "lapis", item: "minecraft:lapis_lazuli" },
+  { name: "quartz", item: "minecraft:quartz" },
+  { name: "redstone", item: "minecraft:redstone" },
+  { name: "coal", item: "minecraft:coal" },
+  { name: "amethyst", item: "minecraft:amethyst_shard" },
+];
 
-StartupEvents.registry('item', event => {
-  global.infinityCells.forEach(cell => {
-    let builder = event.create('infinity_' + cell.name + '_cell', 'extendedae:custom_infinity_cell')
-      .cellModel('extendedae:block/drive/infinity_cobblestone_cell')
-      .textures({ layer0: 'extendedae:item/infinity_cell', layer1: 'ae2:item/storage_cell_led' })
+StartupEvents.registry("item", (event) => {
+  global.infinityCells.forEach((cell) => {
+    let builder = event
+      .create(
+        "infinity_" + cell.name + "_cell",
+        "extendedae:custom_infinity_cell",
+      )
+      .cellModel("extendedae:block/drive/infinity_cobblestone_cell")
+      .textures({
+        layer0: "extendedae:item/infinity_cell",
+        layer1: "ae2:item/storage_cell_led",
+      });
     if (cell.fluid) {
-      builder.fluidType(cell.fluid)
+      builder.fluidType(cell.fluid);
     } else {
-      builder.itemType(cell.item)
+      builder.itemType(cell.item);
     }
-  })
-})
+  });
+});
+
+// The recipe is gone; hide the item from JEI too.
+RecipeViewerEvents.removeEntries("item", (event) => {
+  event.remove("extendedae:infinity_cobblestone_cell");
+});
