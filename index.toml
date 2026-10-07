@@ -128,7 +128,7 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "91e0eefc3bd5cd3b97ce23fe1e78dfe5cf6a0727d694767c2e784ff103d4d761"
+hash = "b2e1d98c6778c0c4fcbff4afad1a5c944478d56b24326c8c549b0e484f89a803"
 metafile = true
 
 [[files]]
@@ -683,7 +683,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "a80d243759a5998d1f61cab61a9769526c21e1a9ac2f328ec1f213bb97311bfe"
+hash = "d8c433e94f2c8e5838e8937d7a162fe834e966f1f9640a563db5060a3011b2f4"
 metafile = true
 
 [[files]]
@@ -773,27 +773,27 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "e7e888ba47b41e53de8e520b14a98b9fc61ed0a7ee0824b4407cbde1cdea98f6"
+hash = "4ad16a440d4a3ff30953d303a21581c1bdafae9ace3a00ae400a875e24c7f4a5"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "71ec94e5f49bb4d72ab98337569914417846e6e576170b998f9078c944d4c3c0"
+hash = "73b02212aef023d0709e1c29441004a09c5f34879ff877b49ddf8bcbdd8d5f1f"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "e824f362b3537caa9dc64e54021f80b0f9f7a8eac36603fd8a3e53f3c7264670"
+hash = "7225aa153f0c2b765736adf1e91776af1aa95cd1e545e66a2b9d46f97aa7c7ac"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "22729316e54e8a314171281417d7429e7d554be0ebb0c87a5b55c949c5972757"
+hash = "6dc3970068b20fae43c4b8fe35566efda3e663b1eedd303834b8159019eb48f7"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "3233e81e60fb4bb18d9050137fc780dfc249aaf1558d1da84e57014ba1d46ac9"
+hash = "492c4362d7e8e0b5a1ad7c67e6b6e9138f4e4c9b0571a4ec9049d3f85e1013f0"
 metafile = true
 
 [[files]]
@@ -818,7 +818,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "3c3c96fdbe2e18fee97f7343c6019cb270a2f4e8d3bf66747b2bdbf1cfeb5909"
+hash = "67e7cf463a4ce267273de5d118da454161c2f59daf5bc2966c6e1723f7871291"
 metafile = true
 
 [[files]]
