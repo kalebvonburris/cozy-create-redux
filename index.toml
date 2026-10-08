@@ -13,6 +13,10 @@ file = "defaultconfigs/Mekanism/world.toml"
 hash = "ca042f025d10f7cbd25fbce5ab5ac366e24870d2841ebfa338159d601e1061c7"
 
 [[files]]
+file = "defaultconfigs/merequester-common.toml"
+hash = "8b5923797544b2849d0370019ddfa5952f29c9d2af1be8c3f92c0a76232f2889"
+
+[[files]]
 file = "defaultconfigs/openpartiesandclaims-server.toml"
 hash = "736d15c8bd0e517130062f5dd084c1829433f2bde2bc0f970a758ae8bcf5c560"
 
