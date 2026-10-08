@@ -61,6 +61,10 @@ file = "kubejs/data/cozy/recipe/sifting/mekanism_salt_brass.json"
 hash = "1645e0f0539752fb11ba3a419c2edb8f2e6362b99b8ffea16a277086b0af4be5"
 
 [[files]]
+file = "kubejs/server_scripts/emits_light.js"
+hash = "16a36247a72d0e3e1240e3f0c3e88687ffb5d363790029626a68eee87d2f92a7"
+
+[[files]]
 file = "kubejs/server_scripts/infinity_cells.js"
 hash = "5a09602b1345b1b5a426682fb434d04334dde32e5d9441642092019a0dd3523c"
 
