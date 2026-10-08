@@ -1,0 +1,13 @@
+name = "JEIOptimizer"
+filename = "jeioptimizer-1.21.1-1.2.0-19.56.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/GRvMb5oF/versions/PLuwRscn/jeioptimizer-1.21.1-1.2.0-19.56.jar"
+hash-format = "sha512"
+hash = "ab098314bdd45ae050cb5fa866f8ad8f0ddceb5e1833bce97ab0525adc2ce2085b42abc2aec4795cd5a60fb3ad0205a646172fdd07aa979aa966970a581cdc3e"
+
+[update]
+[update.modrinth]
+mod-id = "GRvMb5oF"
+version = "PLuwRscn"
