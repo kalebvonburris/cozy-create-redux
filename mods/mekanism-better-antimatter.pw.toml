@@ -1,0 +1,13 @@
+name = "Mekanism Better Antimatter"
+filename = "MekanismBetterAntimatter-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6451626d5008dc78959e99ac598b918b63ace03d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8915105
+project-id = 1060114

@@ -645,6 +645,11 @@ hash = "c9f9996ced5f4abf2ab982bb2521bef1798cf1fc6d6ebc435e38075894921efe"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-better-antimatter.pw.toml"
+hash = "fb15b4f0249ec20c6dd36ec68f192df1a83df2c7808eef814449f6b97e49acee"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-generators.pw.toml"
 hash = "0ec2ceb5602df266d2e07bdc0bc409cdd3d325a6b5136554787779cdf8057a27"
 metafile = true
