@@ -162,7 +162,7 @@ hash = "4efa854c856c96f8c80a06d3b9b68ce77f2989d77da7f41ed78e3d91f1033d20"
 
 [[files]]
 file = "kubejs/startup_scripts/infinity_cells.js"
-hash = "5259b6a763fa4ee3748f4551b0ca44da3e7b3f4811a6640632b7251a11dc7433"
+hash = "060447faf1b9325235d872fd40b853285fc31cf140326946895fc37f1fb408fa"
 
 [[files]]
 file = "kubejs/startup_scripts/nether_star.js"

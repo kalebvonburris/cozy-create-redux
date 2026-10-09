@@ -53,11 +53,19 @@ global.infinityCells = [
   { name: "experience", fluid: "create_enchantment_industry:experience" },
   { name: "andesite_alloy", item: "create:andesite_alloy" },
 
-  // Create Sifting's dust block, compressed by startup_scripts/compression.js
+  // -- Special infinity cells built from new compression recipes --
+  // Create Sifting's dust block
   {
     name: "dust",
     item: "createsifter:dust",
     costId: "kubejs:compressed_dust_6x",
+  },
+
+  // Charcoal
+  {
+    name: "charcoal",
+    item: "minecraft:charcoal",
+    costId: "kubejs:compressed_charcoal_6x",
   },
 ];
 
