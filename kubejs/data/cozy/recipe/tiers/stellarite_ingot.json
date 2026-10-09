@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_brass_6x"
+    },
+    {
+      "item": "createcompression:compressed_experience_6x"
+    },
+    {
+      "item": "createcompression:compressed_netherite_6x"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:stellarite_ingot"
+    }
+  ]
+}

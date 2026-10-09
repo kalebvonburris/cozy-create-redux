@@ -1,0 +1,44 @@
+{
+  "icon": "kubejs:textures/item/dark_matter_ingot.png",
+  "groups": [
+    "metal"
+  ],
+  "hardness": 56,
+  "toughness": 24,
+  "durability": 16128,
+  "armor_durability": 296,
+  "mining_speed": 72,
+  "enchantability": 120,
+  "density": 2,
+  "flexibility": 3,
+  "tier": 5,
+  "color": "8040c4",
+  "color_palette": {
+    "type": "grayscale_map",
+    "colors": {
+      "24": "07000d",
+      "68": "1a0530",
+      "107": "34105c",
+      "150": "57208f",
+      "190": "8040c4",
+      "216": "a970e6",
+      "255": "e1c8ff"
+    },
+    "filler": "interpolate"
+  },
+  "properties": {
+    "default": {
+      "fire_proof": true
+    }
+  },
+  "textures": [
+    "metallic"
+  ],
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "kubejs:dark_matter_ingot",
+      "value": 1.0
+    }
+  ]
+}

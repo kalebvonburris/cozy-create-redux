@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "item_input": {
+    "count": 1,
+    "item": "kubejs:atomic_ambiguity"
+  },
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism:antimatter"
+  },
+  "duration": 1200,
+  "output": {
+    "count": 1,
+    "id": "kubejs:dark_matter_ingot"
+  },
+  "per_tick_usage": false
+}

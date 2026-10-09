@@ -1,0 +1,44 @@
+{
+  "icon": "kubejs:textures/item/neutronium_ingot.png",
+  "groups": [
+    "metal"
+  ],
+  "hardness": 28,
+  "toughness": 12,
+  "durability": 8064,
+  "armor_durability": 148,
+  "mining_speed": 36,
+  "enchantability": 60,
+  "density": 2,
+  "flexibility": 3,
+  "tier": 5,
+  "color": "6f7a8e",
+  "color_palette": {
+    "type": "grayscale_map",
+    "colors": {
+      "24": "0b0d12",
+      "68": "1d222c",
+      "107": "323946",
+      "150": "4c5566",
+      "190": "6f7a8e",
+      "216": "98a3b6",
+      "255": "d4dbe8"
+    },
+    "filler": "interpolate"
+  },
+  "properties": {
+    "default": {
+      "fire_proof": true
+    }
+  },
+  "textures": [
+    "metallic"
+  ],
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "kubejs:neutronium_ingot",
+      "value": 1.0
+    }
+  ]
+}

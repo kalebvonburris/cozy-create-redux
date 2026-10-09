@@ -1,0 +1,35 @@
+{
+  "type": "advanced_ae:reaction",
+  "input_energy": 2147483647,
+  "input_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "fluid": "minecraft:water"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "kubejs:neutronium_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "createcompression:compressed_nether_star_6x"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "mekanism:pellet_antimatter"
+      }
+    }
+  ],
+  "output": {
+    "#": 1,
+    "#t": "ae2:i",
+    "id": "kubejs:atomic_ambiguity"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "icon": "kubejs:textures/item/stellarite_ingot.png",
+  "groups": [
+    "metal"
+  ],
+  "hardness": 14,
+  "toughness": 6,
+  "durability": 4032,
+  "armor_durability": 74,
+  "mining_speed": 18,
+  "enchantability": 30,
+  "density": 2,
+  "flexibility": 3,
+  "tier": 5,
+  "color": "a6cdf7",
+  "color_palette": {
+    "type": "grayscale_map",
+    "colors": {
+      "24": "141a3d",
+      "68": "253a8a",
+      "107": "3f63c9",
+      "150": "6c97e8",
+      "190": "a6cdf7",
+      "216": "d9ecff",
+      "255": "fff6cf"
+    },
+    "filler": "interpolate"
+  },
+  "properties": {
+    "default": {
+      "fire_proof": true
+    }
+  },
+  "textures": [
+    "metallic"
+  ],
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "kubejs:stellarite_ingot",
+      "value": 1.0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "createcompression:compressed_experience_3x"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:rich_soil"
+    }
+  ]
+}

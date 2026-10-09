@@ -1,0 +1,35 @@
+{
+  "type": "advanced_ae:reaction",
+  "input_energy": 1073741823,
+  "input_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "fluid": "minecraft:water"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 7,
+      "ingredient": {
+        "item": "kubejs:stellarite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "kubejs:compressed_refined_obsidian_6x"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "kubejs:compressed_fluix_6x"
+      }
+    }
+  ],
+  "output": {
+    "#": 1,
+    "#t": "ae2:i",
+    "id": "kubejs:neutronium_ingot"
+  }
+}

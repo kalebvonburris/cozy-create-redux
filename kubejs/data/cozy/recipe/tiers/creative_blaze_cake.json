@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create:blaze_cake"
+    },
+    {
+      "item": "kubejs:compressed_charcoal_6x"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:creative_blaze_cake"
+  }
+}

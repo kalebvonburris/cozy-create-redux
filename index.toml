@@ -22,7 +22,19 @@ hash = "736d15c8bd0e517130062f5dd084c1829433f2bde2bc0f970a758ae8bcf5c560"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "5029eb73cc4fa4f2fcb35a24b10011aac606bda366944be8c04b4dc4cd4cfee7"
+hash = "7719069a59b05e1a061c6f6723dfa58f6c2101b3dadfb2e226a460baa64bb519"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/atomic_ambiguity.png"
+hash = "f8da6702dfc1915671e15371d819aa6af3280b76aa6405b1a793134ef4005918"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/atomic_ambiguity.png.mcmeta"
+hash = "5d99e599614ce51d1e842445f85e79a799745db9507de2dc957b548e0eebfc10"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/dark_matter_ingot.png"
+hash = "e67a1490ed978095223fb8260ed53149e10c01eee151554a57b736cc2e2c8d10"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_nether_star.png"
@@ -31,6 +43,30 @@ hash = "d8a9a505c539c1e7ed8afdd24a4410f12f0646c6461627c353d913689873e09b"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/nether_star_dust.png"
 hash = "79be2bbcc152c777e26f752b720a9ce83e79d16d32f482f284b3504ccb8f0644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/neutronium_ingot.png"
+hash = "e05191e70adaf5a6252a709aaceee65a26ef294b83c66c6b63e229c5309cb22c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/stellarite_ingot.png"
+hash = "dc2be52b4c9651900aaf56b7ccedfa19140cc6ceb0ee077f8cd72059ed4e01d6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unbreakable_template.png"
+hash = "982963cd936e51d29da85c77846690ced4a2e30c0aa31ea48bc8e3f053b24cf5"
+
+[[files]]
+file = "kubejs/data/cozy/miapi/materials/dark_matter.json"
+hash = "19fc55903a96f3fadc4e946594c02bb9a31bf2fd67fea531d86d6df0645bd2e8"
+
+[[files]]
+file = "kubejs/data/cozy/miapi/materials/neutronium.json"
+hash = "8bf0b9f3635d2c14420ab8c3efc62b47fa3636b4a8b8b55a5c409c9e87780bc6"
+
+[[files]]
+file = "kubejs/data/cozy/miapi/materials/stellarite.json"
+hash = "ef13746ea7c2b4e955966506cb01d52b885055c5f30e93557901c11c51ae6132"
 
 [[files]]
 file = "kubejs/data/cozy/recipe/compacting/crushed_raw_copper_to_raw.json"
@@ -65,16 +101,60 @@ file = "kubejs/data/cozy/recipe/sifting/mekanism_salt_brass.json"
 hash = "1645e0f0539752fb11ba3a419c2edb8f2e6362b99b8ffea16a277086b0af4be5"
 
 [[files]]
+file = "kubejs/data/cozy/recipe/tiers/atomic_ambiguity.json"
+hash = "eaed313a2e93a58721582deddf194f8f182aeb1fa04a658714320caf21f1cbac"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/tiers/creative_blaze_cake.json"
+hash = "73ca79710cd91b5890d84cb87bb022c8c27e9f710960d6cf6935511dccfab724"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/tiers/dark_matter_ingot.json"
+hash = "4456a6faf13281d24e73d55063d0583c026607c33bbe0aca3a7bba7c9650713b"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/tiers/draconic_endshelf.json"
+hash = "e9e2984410b166f695ed44aef742b78bf99f7dee1aed013e7c53353621230dfa"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/tiers/nether_star_from_dust.json"
+hash = "a8d16386c7267121372616a676a5c06922a9ebbcc349c31b950fef02f753daae"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/tiers/neutronium_ingot.json"
+hash = "2cd9d9147b29d2e33d7e47cc7e300f076cf7eb6e0287cdc4064c13540dcf315a"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/tiers/rich_soil.json"
+hash = "00cee2264a4dad6f93bac0b706481b75b6473bedf7f9329b6392885e2bb3a91a"
+
+[[files]]
+file = "kubejs/data/cozy/recipe/tiers/stellarite_ingot.json"
+hash = "414d3ccdad4411e36cdd3f37e4393abd91b7bcd46f39c109832a010861cf13ad"
+
+[[files]]
+file = "kubejs/server_scripts/compression.js"
+hash = "e935227ebdc775b04eaa0766a4f68192ac974f3bad4273556da5280e371efc0d"
+
+[[files]]
 file = "kubejs/server_scripts/emits_light.js"
 hash = "02dc70dddf64d64a5f741556e3c849be9f47b34f7809e557666f95ab749f41d2"
 
 [[files]]
 file = "kubejs/server_scripts/infinity_cells.js"
-hash = "5a09602b1345b1b5a426682fb434d04334dde32e5d9441642092019a0dd3523c"
+hash = "082e9134f924eb07b2c7a82b4a12eda9012f9be25653bcea1d09e33a769a0fa4"
+
+[[files]]
+file = "kubejs/server_scripts/unbreakable.js"
+hash = "f4a856d81874951002ba0bf2c6f47d8c4ab1a6b7bd03ecc79b81472c1c312acd"
+
+[[files]]
+file = "kubejs/startup_scripts/compression.js"
+hash = "bd822e7facb3c34eac019d25c0f16313bf2ca2ba70ec364f9fbea7ee6da8afff"
 
 [[files]]
 file = "kubejs/startup_scripts/infinity_cells.js"
-hash = "a3502571c76497569e9e578d996064d641ae87c6cf424df7a71d13dcb04f256d"
+hash = "5259b6a763fa4ee3748f4551b0ca44da3e7b3f4811a6640632b7251a11dc7433"
 
 [[files]]
 file = "kubejs/startup_scripts/nether_star.js"
@@ -83,6 +163,10 @@ hash = "e927ee65382e4cd781abfa53fb8b43073b0b2d1572b67ca730a8f61f23074515"
 [[files]]
 file = "kubejs/startup_scripts/sifter_meshes.js"
 hash = "c4ec324ea66f7785d5d7a538595ce5e60250d24ec13a1c5428f799f48f72558b"
+
+[[files]]
+file = "kubejs/startup_scripts/tiers.js"
+hash = "07953c323495224222af3f9d46c95f2bda94519a57b06828625c458b17042ead"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"

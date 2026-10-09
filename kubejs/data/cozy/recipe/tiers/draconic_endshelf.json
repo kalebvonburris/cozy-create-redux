@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BCB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bookshelf"
+    },
+    "C": {
+      "item": "createcompression:compressed_brass_6x"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "apothic_enchanting:draconic_endshelf"
+  }
+}

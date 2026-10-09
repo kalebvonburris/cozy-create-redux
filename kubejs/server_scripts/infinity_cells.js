@@ -7,11 +7,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "extendedae:cobblestone_cell" });
 
   global.infinityCells.forEach((cell) => {
-    let cost = cell.cost || cell.name;
+    let cost =
+      cell.costId ||
+      "createcompression:compressed_" + (cell.cost || cell.name) + "_6x";
     event
       .shaped("kubejs:infinity_" + cell.name + "_cell", ["CKC", "CXC", "III"], {
         C: "ae2:quartz_glass",
-        K: "createcompression:compressed_" + cost + "_6x",
+        K: cost,
         X: "ae2:cell_component_16k",
         I: "#c:gems/diamond",
       })

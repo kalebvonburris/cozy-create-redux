@@ -10,6 +10,8 @@
 //   fluid    a fluid instead
 //   cost     Create Compression material, defaults to name. The recipe takes
 //            one 6x compressed block of it.
+//   costId   full id of the 6x block instead, for materials compressed by
+//            startup_scripts/compression.js
 //
 // What a 6x block actually is depends on what that material compresses from:
 //   stone and soil compress from the block itself       9^6 = 531,441
@@ -46,6 +48,17 @@ global.infinityCells = [
   { name: "redstone", item: "minecraft:redstone" },
   { name: "coal", item: "minecraft:coal" },
   { name: "amethyst", item: "minecraft:amethyst_shard" },
+
+  // tier I (Kinetic) rewards
+  { name: "experience", fluid: "create_enchantment_industry:experience" },
+  { name: "andesite_alloy", item: "create:andesite_alloy" },
+
+  // Create Sifting's dust block, compressed by startup_scripts/compression.js
+  {
+    name: "dust",
+    item: "createsifter:dust",
+    costId: "kubejs:compressed_dust_6x",
+  },
 ];
 
 StartupEvents.registry("item", (event) => {
