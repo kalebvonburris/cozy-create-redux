@@ -1,0 +1,20 @@
+{
+  "type": "mekanism:reaction",
+  "item_input": {
+    "count": 1,
+    "item": "create:experience_nugget"
+  },
+  "fluid_input": {
+    "amount": 27,
+    "fluid": "create_enchantment_industry:experience"
+  },
+  "chemical_input": {
+    "amount": 10,
+    "chemical": "mekanism:oxygen"
+  },
+  "duration": 100,
+  "item_output": {
+    "count": 1,
+    "id": "create:experience_block"
+  }
+}

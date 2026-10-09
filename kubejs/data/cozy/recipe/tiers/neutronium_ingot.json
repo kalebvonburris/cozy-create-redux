@@ -2,9 +2,9 @@
   "type": "advanced_ae:reaction",
   "input_energy": 1073741823,
   "input_fluid": {
-    "amount": 1000,
+    "amount": 16000,
     "ingredient": {
-      "fluid": "minecraft:water"
+      "fluid": "mekanism:superheated_sodium"
     }
   },
   "input_items": [
@@ -24,6 +24,12 @@
       "amount": 1,
       "ingredient": {
         "item": "kubejs:compressed_fluix_6x"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "mekanism:reprocessed_fissile_fragment"
       }
     }
   ],

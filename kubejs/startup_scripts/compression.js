@@ -1,12 +1,13 @@
 // Compressed blocks for materials Create Compression doesn't cover.
 //
-// Each entry registers kubejs:compressed_<name>_1x .. _<TIERS>x, using
+// Each entry registers kubejs:compressed_<name>_1x .. _<tiers>x, using
 // Create Compression's own overlay textures so they look like the rest.
 // Recipes are generated from this same list in server_scripts/compression.js.
 //
 //   name     id suffix
 //   base     the block that 1x compresses from (9 of it)
 //   texture  that block's texture
+//   tiers    optional, defaults to global.compressionTiers
 //
 // A 6x block is 9^6 = 531,441 base blocks.
 global.compressionTiers = 6;
@@ -27,6 +28,29 @@ global.compressedMaterials = [
   },
   // Create Sifting's dust block
   { name: "dust", base: "createsifter:dust", texture: "createsifter:block/dust" },
+
+  // Alloy partners only. The 3x alloy recipes need a 2x of these, so they
+  // stop at 2x.
+  {
+    name: "crying_obsidian",
+    base: "minecraft:crying_obsidian",
+    texture: "minecraft:block/crying_obsidian",
+    tiers: 2,
+  },
+  // 1 entro block = 4 crystals
+  {
+    name: "entro",
+    base: "extendedae:entro_block",
+    texture: "extendedae:block/entro_block",
+    tiers: 2,
+  },
+  // 1 block = 9 ingots
+  {
+    name: "uranium",
+    base: "mekanism:block_uranium",
+    texture: "mekanism:block/block_uranium",
+    tiers: 2,
+  },
 ];
 
 // A function per block, so the model callback (run later, on the client)
@@ -67,7 +91,8 @@ const registerCompressedBlock = (event, texture, id, tier) => {
 
 StartupEvents.registry("block", (event) => {
   global.compressedMaterials.forEach((mat) => {
-    for (let n = 1; n <= global.compressionTiers; n++) {
+    let tiers = mat.tiers || global.compressionTiers;
+    for (let n = 1; n <= tiers; n++) {
       registerCompressedBlock(
         event,
         mat.texture,

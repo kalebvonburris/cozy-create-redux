@@ -32,5 +32,11 @@
   "block.kubejs.compressed_dust_3x": "Compressed Dust (3x)",
   "block.kubejs.compressed_dust_4x": "Compressed Dust (4x)",
   "block.kubejs.compressed_dust_5x": "Compressed Dust (5x)",
-  "block.kubejs.compressed_dust_6x": "Compressed Dust (6x)"
+  "block.kubejs.compressed_dust_6x": "Compressed Dust (6x)",
+  "block.kubejs.compressed_crying_obsidian_1x": "Compressed Crying Obsidian (1x)",
+  "block.kubejs.compressed_crying_obsidian_2x": "Compressed Crying Obsidian (2x)",
+  "block.kubejs.compressed_entro_1x": "Compressed Entro (1x)",
+  "block.kubejs.compressed_entro_2x": "Compressed Entro (2x)",
+  "block.kubejs.compressed_uranium_1x": "Compressed Uranium (1x)",
+  "block.kubejs.compressed_uranium_2x": "Compressed Uranium (2x)"
 }

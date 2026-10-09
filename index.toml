@@ -22,7 +22,7 @@ hash = "736d15c8bd0e517130062f5dd084c1829433f2bde2bc0f970a758ae8bcf5c560"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "7719069a59b05e1a061c6f6723dfa58f6c2101b3dadfb2e226a460baa64bb519"
+hash = "78ff0a065771cc04a8a7829a9d75302492695add67e6454c3d662718a55aaa0f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/atomic_ambiguity.png"
@@ -57,6 +57,10 @@ file = "kubejs/assets/kubejs/textures/item/unbreakable_template.png"
 hash = "982963cd936e51d29da85c77846690ced4a2e30c0aa31ea48bc8e3f053b24cf5"
 
 [[files]]
+file = "kubejs/client_scripts/unbreakable.js"
+hash = "afbe9a3fec06ab04f0970ffa14e5acb94ba9856a5c3c937a42d6b0718f9bba8b"
+
+[[files]]
 file = "kubejs/data/cozy/miapi/materials/dark_matter.json"
 hash = "19fc55903a96f3fadc4e946594c02bb9a31bf2fd67fea531d86d6df0645bd2e8"
 
@@ -89,6 +93,10 @@ file = "kubejs/data/cozy/recipe/crushing/nether_star.json"
 hash = "3ad97d4da04b58e478500aecfeecf1ffeeb31f3c6eff34a7d4c14cb85c35fd3d"
 
 [[files]]
+file = "kubejs/data/cozy/recipe/reaction/experience_block.json"
+hash = "5caf8ea912ad3311c0b9ceb8686ffa5a4449c47eab8491af79b705ca2b3bd329"
+
+[[files]]
 file = "kubejs/data/cozy/recipe/sequenced_assembly/nether_star.json"
 hash = "7d895c36f476e9f1d2210e6400a9be156c96b0f76adf52ea64fa48f4ce76fdf1"
 
@@ -102,7 +110,7 @@ hash = "1645e0f0539752fb11ba3a419c2edb8f2e6362b99b8ffea16a277086b0af4be5"
 
 [[files]]
 file = "kubejs/data/cozy/recipe/tiers/atomic_ambiguity.json"
-hash = "eaed313a2e93a58721582deddf194f8f182aeb1fa04a658714320caf21f1cbac"
+hash = "1d50aa0865198f39423fa122a8160472a8e035b4f1ea835ba115007fdf27894f"
 
 [[files]]
 file = "kubejs/data/cozy/recipe/tiers/creative_blaze_cake.json"
@@ -122,7 +130,7 @@ hash = "a8d16386c7267121372616a676a5c06922a9ebbcc349c31b950fef02f753daae"
 
 [[files]]
 file = "kubejs/data/cozy/recipe/tiers/neutronium_ingot.json"
-hash = "2cd9d9147b29d2e33d7e47cc7e300f076cf7eb6e0287cdc4064c13540dcf315a"
+hash = "fd62e9c0c114bf76ede383172ca81f3d13e889aa1a88235ae0f2813662a2812a"
 
 [[files]]
 file = "kubejs/data/cozy/recipe/tiers/rich_soil.json"
@@ -134,7 +142,7 @@ hash = "414d3ccdad4411e36cdd3f37e4393abd91b7bcd46f39c109832a010861cf13ad"
 
 [[files]]
 file = "kubejs/server_scripts/compression.js"
-hash = "e935227ebdc775b04eaa0766a4f68192ac974f3bad4273556da5280e371efc0d"
+hash = "f74f2183cdf0c488c4153126289a7a0fa39c087daef163a6b662f963e1d7b714"
 
 [[files]]
 file = "kubejs/server_scripts/emits_light.js"
@@ -150,7 +158,7 @@ hash = "f4a856d81874951002ba0bf2c6f47d8c4ab1a6b7bd03ecc79b81472c1c312acd"
 
 [[files]]
 file = "kubejs/startup_scripts/compression.js"
-hash = "bd822e7facb3c34eac019d25c0f16313bf2ca2ba70ec364f9fbea7ee6da8afff"
+hash = "4efa854c856c96f8c80a06d3b9b68ce77f2989d77da7f41ed78e3d91f1033d20"
 
 [[files]]
 file = "kubejs/startup_scripts/infinity_cells.js"

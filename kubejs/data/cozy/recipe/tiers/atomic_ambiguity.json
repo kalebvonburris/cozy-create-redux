@@ -2,9 +2,9 @@
   "type": "advanced_ae:reaction",
   "input_energy": 2147483647,
   "input_fluid": {
-    "amount": 1000,
+    "amount": 16000,
     "ingredient": {
-      "fluid": "minecraft:water"
+      "fluid": "mekanismgenerators:fusion_fuel"
     }
   },
   "input_items": [
