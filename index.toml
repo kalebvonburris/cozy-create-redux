@@ -185,6 +185,10 @@ file = "kubejs/server_scripts/progression/nether.js"
 hash = "82d5cb7dffe5d4551fb999a92e445676ca7239ca5a8f9ef480db50f112cb6733"
 
 [[files]]
+file = "kubejs/server_scripts/progression/ore_stones.js"
+hash = "a08317cbf1b7a4231cfbec1d7bae756405fc9a0e1792b90f29587a20a97bf3fa"
+
+[[files]]
 file = "kubejs/server_scripts/progression/removals.js"
 hash = "afb0a6b165ccaeae034cbbb36fb11df0695987e3cb693e80c9d4e4a74ae9a618"
 
