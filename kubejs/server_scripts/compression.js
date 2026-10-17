@@ -3,7 +3,7 @@
 // 9 of a tier in a 3x3 makes the next, and one breaks back into 9.
 //
 // Plus one alloy shortcut per material, at 3x only: 8 of the 1x around a 2x
-// (or for netherite a 4x) of a partner material. Skips most of the bottom-tier
+// of a partner material. Skips most of the bottom-tier
 // volume. Nothing above 3x has a shortcut, so they don't stack.
 const compressionAlloys = [
   {
@@ -21,7 +21,7 @@ const compressionAlloys = [
   {
     name: "netherite",
     from: "createcompression:compressed_netherite_1x",
-    partner: "createcompression:compressed_basalt_4x",
+    partner: "createcompression:compressed_basalt_2x",
     result: "createcompression:compressed_netherite_3x",
   },
   {

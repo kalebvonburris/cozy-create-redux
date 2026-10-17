@@ -1,0 +1,13 @@
+name = "Budding Nether Quartz"
+filename = "buddingnetherquartz-0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e94zTrZK/versions/vG9fCqMY/buddingnetherquartz-0.1.jar"
+hash-format = "sha512"
+hash = "b84532b6073f0f3bc7250a2c378d1f9748e85edb3aeb53db210226a1ce17c1f244a676468c838626398f91c629b92c4c53f7d3c6063a2a7d375438a1a1dca33f"
+
+[update]
+[update.modrinth]
+mod-id = "e94zTrZK"
+version = "vG9fCqMY"

@@ -38,5 +38,8 @@
   "block.kubejs.compressed_entro_1x": "Compressed Entro (1x)",
   "block.kubejs.compressed_entro_2x": "Compressed Entro (2x)",
   "block.kubejs.compressed_uranium_1x": "Compressed Uranium (1x)",
-  "block.kubejs.compressed_uranium_2x": "Compressed Uranium (2x)"
+  "block.kubejs.compressed_uranium_2x": "Compressed Uranium (2x)",
+  "item.kubejs.limestone_pebble": "Limestone Pebble",
+  "item.kubejs.scoria_pebble": "Scoria Pebble",
+  "item.kubejs.netherrack_pebble": "Netherrack Pebble"
 }
