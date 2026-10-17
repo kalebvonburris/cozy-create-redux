@@ -25,8 +25,88 @@ file = "defaultconfigs/openpartiesandclaims-server.toml"
 hash = "736d15c8bd0e517130062f5dd084c1829433f2bde2bc0f970a758ae8bcf5c560"
 
 [[files]]
+file = "kubejs/assets/kubejs/blockstates/fluorite_cluster.json"
+hash = "9b75dd087140ab551e47cc3e713c479df5d7eecf3a32e1c2cd3984564efad20e"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/large_fluorite_bud.json"
+hash = "2dc17d9206911a31a254bccf38cd0118427b8a5ceb4e4a55bca43b8b35f71f65"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/medium_fluorite_bud.json"
+hash = "67df732d8371a5002a463cc48b6a10d8e67a06317a5fedc9fff0feea096fcd00"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/small_fluorite_bud.json"
+hash = "1ab8d3fa092cf610057caaa82f78647508d070a07aaf9042678e6a484e534caa"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "8edd0d848ecaaadf6ecccc7a466771953ec0f47a7537e22249535cbbd1ada6c4"
+hash = "806f3e3160dc59c098552f3dbbd01e8bb38182bddf27dd95f70de9ea2268a1c7"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/fluorite_cluster.json"
+hash = "4481c0e3765f715abf67871edb08a61d39448825f26e40506855e38e554c05e1"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/large_fluorite_bud.json"
+hash = "f76030f1f57e140ecb3d073e41b8144b964b102dfbefab45363e791f74664252"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/medium_fluorite_bud.json"
+hash = "943371d628c23a81b390f355b0eeed65e5c9d0b427e835b821ed69852ab044cb"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/small_fluorite_bud.json"
+hash = "d177e2d9f6e75d34d50b02bbf8ae527c39616035d3f83b6e50951d33809302ca"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/fluorite_cluster.json"
+hash = "f1765266afba0b42e4d9f2bfc6612014e252da94c80a8a46310a6e27ed0405b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/large_fluorite_bud.json"
+hash = "027f760d44981801bff2ffad8b3ca079785866eacda482595f1ded7a5b9365fe"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/medium_fluorite_bud.json"
+hash = "9002fb6e52d70946b0abb6edd75bac84f7bc4925362625d7f37fabf5f1dcd6b9"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/small_fluorite_bud.json"
+hash = "a3158163f5ceab7d4c16e8569a9542b819ccc658d0435fcb5f5c322b00970edf"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/budding_fluorite.png"
+hash = "001305a85515d8bd8a3b9d7294c094702fbef34e65f672c6081fbf3598f1c9af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/dark_matter_block.png"
+hash = "9364442d8f5354b7dba25ac0dd00f9204df8fcbc4ff0f9c64da271dcae8fe439"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/fluorite_cluster.png"
+hash = "153e41f306ba1ac317bb7d6fe3b5fbbf61de358d298743c9fe70aba845e9c46b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/large_fluorite_bud.png"
+hash = "73879a071da14089f279ba723499f71b63e89ea29c8fa752808a60ac7b4ca1ef"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/medium_fluorite_bud.png"
+hash = "1b0c38bcc6d8e348036001309507653ec819004ba7916367f4028fec1129fc03"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/neutronium_block.png"
+hash = "d29ed39d75575cfa8a407c80bd41f2ac24b0d531883c72f1b46a80aae33b9800"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/small_fluorite_bud.png"
+hash = "95a74949a7cf7bc6ece75f54a27dcc6bb4d47649b02cce1df97777e48099e38e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stellarite_block.png"
+hash = "74bf103ebab2bc66fac459f764c8be414a007582d6791f46c5fd075c0e52c22c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/atomic_ambiguity.png"
@@ -37,12 +117,28 @@ file = "kubejs/assets/kubejs/textures/item/atomic_ambiguity.png.mcmeta"
 hash = "5d99e599614ce51d1e842445f85e79a799745db9507de2dc957b548e0eebfc10"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/crystallized_levels.png"
+hash = "f7dc3bc6dbadd6bbfe24bb8f681b3b4e5e3e3b0be51224b41f49aca5d5e0a79b"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/dark_matter_ingot.png"
 hash = "e67a1490ed978095223fb8260ed53149e10c01eee151554a57b736cc2e2c8d10"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/imbued_netherite.png"
+hash = "c930d36e20358921b1b74151e665273ab7d55286cea9e10c07536952f4fa23d3"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_nether_star.png"
 hash = "d8a9a505c539c1e7ed8afdd24a4410f12f0646c6461627c353d913689873e09b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_neutron_dense_bar.png"
+hash = "9e8fde8f4d1dc1fd16f80643b2b3e7f21653f02133ba01eaa3457f4870008bdb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_stellarite_ingot.png"
+hash = "36d967b9197f6385a6ba16e9d639856ddd280541b79e48829d93b0913c0cdfc6"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/limestone_pebble.png"
@@ -57,12 +153,28 @@ file = "kubejs/assets/kubejs/textures/item/netherrack_pebble.png"
 hash = "248b750336ab5a23fbea22474189e2c8eaf914e7edd1470286b472eee3b2dd08"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/neutron_core.png"
+hash = "a9d9b6aac393433f996f930dc78f32d6ac21fa0d3a28086b3eb148dda9231ea0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/neutron_dense_bar.png"
+hash = "7249b6e0e2e8721d5fca95ea8da611f91a786588286b17e59b69c94aa2bd0bcb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/neutronium_fluix.png"
+hash = "929157f136a8b35ddcc21c96123d4722f4d295776f94553c3cfa2843b8fd76b5"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/neutronium_ingot.png"
 hash = "e05191e70adaf5a6252a709aaceee65a26ef294b83c66c6b63e229c5309cb22c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/scoria_pebble.png"
 hash = "1ce1a973265b11d7f642a5cb01ea0446c64cd13c0011bf89cc778acbe98abb7d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/shielded_casing.png"
+hash = "dcf25ddf2da23be9c7e4cea87d9ebec1143732124cb79842b1189bed873b325c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/stellarite_ingot.png"
@@ -149,16 +261,24 @@ file = "kubejs/data/cozy/recipe/tiers/nether_star_from_dust.json"
 hash = "a8d16386c7267121372616a676a5c06922a9ebbcc349c31b950fef02f753daae"
 
 [[files]]
-file = "kubejs/data/cozy/recipe/tiers/neutronium_ingot.json"
-hash = "fd62e9c0c114bf76ede383172ca81f3d13e889aa1a88235ae0f2813662a2812a"
-
-[[files]]
 file = "kubejs/data/cozy/recipe/tiers/rich_soil.json"
 hash = "00cee2264a4dad6f93bac0b706481b75b6473bedf7f9329b6392885e2bb3a91a"
 
 [[files]]
-file = "kubejs/data/cozy/recipe/tiers/stellarite_ingot.json"
-hash = "414d3ccdad4411e36cdd3f37e4393abd91b7bcd46f39c109832a010861cf13ad"
+file = "kubejs/data/kubejs/loot_table/blocks/fluorite_cluster.json"
+hash = "84c0a029d0848ac4cb7b294083106f462ec6c4fc2213f05e33e946d74c7d2ecc"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/blocks/large_fluorite_bud.json"
+hash = "2eb1b1e48c91e4bf2b4c79d8bef8b13c80ea6a52bf223027023ee75750187ea2"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/blocks/medium_fluorite_bud.json"
+hash = "14f6f06b2b7b766f7dc7b2e0e9c9aa77247da303cf6b73959c6b075ab8464209"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/blocks/small_fluorite_bud.json"
+hash = "8eea58b6348f87ece25ccc953f73adc01760bede8486ae0017c4845b7cfe59a1"
 
 [[files]]
 file = "kubejs/server_scripts/compression.js"
@@ -170,19 +290,31 @@ hash = "02dc70dddf64d64a5f741556e3c849be9f47b34f7809e557666f95ab749f41d2"
 
 [[files]]
 file = "kubejs/server_scripts/infinity_cells.js"
-hash = "082e9134f924eb07b2c7a82b4a12eda9012f9be25653bcea1d09e33a769a0fa4"
+hash = "18ae03acbbd679e179dd6f34310f6ca542bd8a1f24de23b1e50a0cb552930cef"
+
+[[files]]
+file = "kubejs/server_scripts/progression/capstone.js"
+hash = "69a7982f42161dafcfc974fec29dcbd1c1e6940c11c6b22cd2c97ca6c37324df"
 
 [[files]]
 file = "kubejs/server_scripts/progression/fuel.js"
 hash = "bbfd8ec9ccf1df03707b1b1a6c08061c80a8a277aa9f536cd86dc9dc430f3027"
 
 [[files]]
+file = "kubejs/server_scripts/progression/gems.js"
+hash = "d206c98f022340410e98b1f512b8a99dbfa9d330a2124fe0d68c258d53e0780b"
+
+[[files]]
 file = "kubejs/server_scripts/progression/materials.js"
-hash = "8422f1b79927439f883a21ad6306684c51ad726f611237879d02e13859ec32e1"
+hash = "39b0dcf784e7582037d404c8daaa36127e984c0f374e19ce3d691623b5a30d78"
 
 [[files]]
 file = "kubejs/server_scripts/progression/nether.js"
-hash = "82d5cb7dffe5d4551fb999a92e445676ca7239ca5a8f9ef480db50f112cb6733"
+hash = "b60fd742224ef9564c4b754d10edb755e9fd7f21c39742c96a6fd9e4f987a17f"
+
+[[files]]
+file = "kubejs/server_scripts/progression/nuclear.js"
+hash = "3701e680dd74cc342d63b49f122fc7257ff656cadfbfa578e34c58b82dca4645"
 
 [[files]]
 file = "kubejs/server_scripts/progression/ore_stones.js"
@@ -205,12 +337,16 @@ file = "kubejs/server_scripts/unbreakable.js"
 hash = "f4a856d81874951002ba0bf2c6f47d8c4ab1a6b7bd03ecc79b81472c1c312acd"
 
 [[files]]
+file = "kubejs/startup_scripts/budding_fluorite.js"
+hash = "039f74f19319d2d2a9f9a16f4511cf101d2b663b9a6284978283b5b70a37692c"
+
+[[files]]
 file = "kubejs/startup_scripts/compression.js"
 hash = "4efa854c856c96f8c80a06d3b9b68ce77f2989d77da7f41ed78e3d91f1033d20"
 
 [[files]]
 file = "kubejs/startup_scripts/infinity_cells.js"
-hash = "060447faf1b9325235d872fd40b853285fc31cf140326946895fc37f1fb408fa"
+hash = "27459b2d840decf00ae8a5ff7485dc5e3b85052b0683a38a90fd5953e003f6b7"
 
 [[files]]
 file = "kubejs/startup_scripts/nether_star.js"
@@ -226,7 +362,7 @@ hash = "c4ec324ea66f7785d5d7a538595ce5e60250d24ec13a1c5428f799f48f72558b"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
-hash = "07953c323495224222af3f9d46c95f2bda94519a57b06828625c458b17042ead"
+hash = "67798f85b1eda0398ece1715742fb2f410616731eae78b8a49b3cf68b50256e3"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"

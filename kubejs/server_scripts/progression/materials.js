@@ -76,4 +76,16 @@ ServerEvents.recipes((event) => {
       "minecraft:blackstone",
     ])
     .id("cozy:progression/crafting/wither_skeleton_skull");
+
+  // Redstone: crushed iron charged under a Tesla Coil. Energy and yield are
+  // placeholders.
+  event
+    .custom({
+      type: "createaddition:charging",
+      energy: 10000,
+      max_charge_rate: 360,
+      ingredients: [{ item: "create:crushed_raw_iron" }],
+      results: [{ id: "minecraft:redstone" }],
+    })
+    .id("cozy:progression/charging/redstone");
 });

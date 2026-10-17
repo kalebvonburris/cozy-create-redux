@@ -39,11 +39,44 @@ ServerEvents.recipes((event) => {
     .custom({
       type: "create:mixing",
       heat_requirement: "heated",
-      ingredients: [
-        { tag: "c:dusts/sulfur" },
-        { item: "minecraft:coal" },
-      ],
+      ingredients: [{ tag: "c:dusts/sulfur" }, { item: "minecraft:coal" }],
       results: [{ count: 2, id: "minecraft:blaze_powder" }],
     })
     .id("cozy:progression/mixing/blaze_powder");
+
+  // Netherite scrap: 8 netherrack pebbles + 1 diamond, superheated and
+  // pressed. No sifted netherite.
+  let scrapIngredients = [];
+  for (let i = 0; i < 8; i++)
+    scrapIngredients.push({ item: "kubejs:netherrack_pebble" });
+  scrapIngredients.push({ item: "minecraft:diamond" });
+  event
+    .custom({
+      type: "create:compacting",
+      heat_requirement: "superheated",
+      ingredients: scrapIngredients,
+      results: [{ id: "minecraft:netherite_scrap" }],
+    })
+    .id("cozy:progression/compacting/netherite_scrap");
+
+  // Glowstone block: 4 netherrack + 4 scoria pebbles + 1 redstone, pressed.
+  // Dust comes from Create's own glowstone crushing (3 + 50% 1).
+  let glowIngredients = [];
+  for (let i = 0; i < 4; i++)
+    glowIngredients.push({ item: "kubejs:netherrack_pebble" });
+  for (let i = 0; i < 4; i++)
+    glowIngredients.push({ item: "kubejs:scoria_pebble" });
+  glowIngredients.push({ item: "minecraft:redstone" });
+  event
+    .custom({
+      type: "create:compacting",
+      ingredients: glowIngredients,
+      results: [{ id: "minecraft:glowstone" }],
+    })
+    .id("cozy:progression/compacting/glowstone");
+
+  // Create's cinder flour + potion fillings. Glowstone and redstone have
+  // their own routes.
+  event.remove({ id: "create:filling/glowstone" });
+  event.remove({ id: "create:filling/redstone" });
 });

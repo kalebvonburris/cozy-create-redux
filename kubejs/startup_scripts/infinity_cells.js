@@ -12,6 +12,9 @@
 //            one 6x compressed block of it.
 //   costId   full id of the 6x block instead, for materials compressed by
 //            startup_scripts/compression.js
+//   antimatter  true if the recipe also takes an antimatter pellet. Metal
+//            and gem cells arrive in the Dark Matter tier; stone, soil and
+//            fluid cells don't need it.
 //
 // What a 6x block actually is depends on what that material compresses from:
 //   stone and soil compress from the block itself       9^6 = 531,441
@@ -33,25 +36,25 @@ global.infinityCells = [
   { name: "lava", fluid: "minecraft:lava", cost: "obsidian" },
 
   // metals
-  { name: "iron", item: "minecraft:iron_ingot" },
-  { name: "gold", item: "minecraft:gold_ingot" },
-  { name: "copper", item: "minecraft:copper_ingot" },
-  { name: "zinc", item: "create:zinc_ingot" },
-  { name: "brass", item: "create:brass_ingot" },
-  { name: "netherite", item: "minecraft:netherite_ingot" },
+  { name: "iron", item: "minecraft:iron_ingot", antimatter: true },
+  { name: "gold", item: "minecraft:gold_ingot", antimatter: true },
+  { name: "copper", item: "minecraft:copper_ingot", antimatter: true },
+  { name: "zinc", item: "create:zinc_ingot", antimatter: true },
+  { name: "brass", item: "create:brass_ingot", antimatter: true },
+  { name: "netherite", item: "minecraft:netherite_ingot", antimatter: true },
 
   // gems and minerals
-  { name: "diamond", item: "minecraft:diamond" },
-  { name: "emerald", item: "minecraft:emerald" },
-  { name: "lapis", item: "minecraft:lapis_lazuli" },
-  { name: "quartz", item: "minecraft:quartz" },
-  { name: "redstone", item: "minecraft:redstone" },
-  { name: "coal", item: "minecraft:coal" },
-  { name: "amethyst", item: "minecraft:amethyst_shard" },
+  { name: "diamond", item: "minecraft:diamond", antimatter: true },
+  { name: "emerald", item: "minecraft:emerald", antimatter: true },
+  { name: "lapis", item: "minecraft:lapis_lazuli", antimatter: true },
+  { name: "quartz", item: "minecraft:quartz", antimatter: true },
+  { name: "redstone", item: "minecraft:redstone", antimatter: true },
+  { name: "coal", item: "minecraft:coal", antimatter: true },
+  { name: "amethyst", item: "minecraft:amethyst_shard", antimatter: true },
 
   // tier I (Kinetic) rewards
   { name: "experience", fluid: "create_enchantment_industry:experience" },
-  { name: "andesite_alloy", item: "create:andesite_alloy" },
+  { name: "andesite_alloy", item: "create:andesite_alloy", antimatter: true },
 
   // -- Special infinity cells built from new compression recipes --
   // Create Sifting's dust block
@@ -66,6 +69,7 @@ global.infinityCells = [
     name: "charcoal",
     item: "minecraft:charcoal",
     costId: "kubejs:compressed_charcoal_6x",
+    antimatter: true,
   },
 ];
 
