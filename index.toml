@@ -5,7 +5,7 @@ file = ".githooks/pre-commit"
 hash = "5c9d1102050e87616d7c98d58ef60a5d1d8efc317cbb4bc01d47f560ce0dc902"
 
 [[files]]
-file = "config/skyblockbuilder/templates/default.nbt"
+file = "config/skyblockbuilder/templates/islands/default.nbt"
 hash = "6db8d0f859be0b3e35c6ccf87dc493ff8e35f3c1a4e7d54c4ffccafbbb25c3c6"
 
 [[files]]
