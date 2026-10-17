@@ -128,8 +128,19 @@ ServerEvents.recipes((event) => {
       { chance: 0.5, id: r.pebble },
       { chance: 0.5, id: r.pebble },
     ].concat(ROCK_EXTRAS[r.rock] || []);
+    // The millstone takes at most 4 outputs. When the extras push it over,
+    // the three 50% rolls become one 50% roll of 3: same 3.5 average, same
+    // 2-5 range.
+    let milled =
+      pebbles.length > 4
+        ? [
+            { count: 2, id: r.pebble },
+            { chance: 0.5, count: 3, id: r.pebble },
+          ].concat(ROCK_EXTRAS[r.rock] || [])
+        : pebbles;
 
     ["crushing", "milling"].forEach((type) => {
+      let out = type == "milling" ? milled : pebbles;
       if (r.crushed) {
         // rock -> 1 crushed rock
         event
@@ -146,7 +157,7 @@ ServerEvents.recipes((event) => {
             type: "create:" + type,
             ingredients: [{ item: r.crushed }],
             processing_time: 250,
-            results: pebbles,
+            results: out,
           })
           .id("cozy:progression/" + type + "/crushed_" + name);
       } else {
@@ -155,7 +166,7 @@ ServerEvents.recipes((event) => {
             type: "create:" + type,
             ingredients: [{ item: r.rock }],
             processing_time: 250,
-            results: pebbles,
+            results: out,
           })
           .id("cozy:progression/" + type + "/" + name);
       }

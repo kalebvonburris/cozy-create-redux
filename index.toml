@@ -354,7 +354,7 @@ hash = "afb0a6b165ccaeae034cbbb36fb11df0695987e3cb693e80c9d4e4a74ae9a618"
 
 [[files]]
 file = "kubejs/server_scripts/progression/rocks.js"
-hash = "4875d0238047abef9a9ce1abdcd8e84a09dc76b8028f26a8aa1bba2999bbad74"
+hash = "6cc803d185b1175f6acdfe08a0304af018155098c97e76de03a2f5ec08bce5f4"
 
 [[files]]
 file = "kubejs/server_scripts/progression/sifting.js"
