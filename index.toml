@@ -5,6 +5,10 @@ file = ".githooks/pre-commit"
 hash = "5c9d1102050e87616d7c98d58ef60a5d1d8efc317cbb4bc01d47f560ce0dc902"
 
 [[files]]
+file = "config/skyblockbuilder/templates/default.nbt"
+hash = "6db8d0f859be0b3e35c6ccf87dc493ff8e35f3c1a4e7d54c4ffccafbbb25c3c6"
+
+[[files]]
 file = "defaultconfigs/DistantHorizons.toml"
 hash = "a13412dd650bd9745a0ac5ee5d25129a586fe99cf44a3aaa2d7b56b383a3f197"
 
@@ -42,7 +46,7 @@ hash = "1ab8d3fa092cf610057caaa82f78647508d070a07aaf9042678e6a484e534caa"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "806f3e3160dc59c098552f3dbbd01e8bb38182bddf27dd95f70de9ea2268a1c7"
+hash = "7fc0e5fc6c2ac3af5aab6c255d1bf78edc8391e92465fceea2a53a48a7944169"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/fluorite_cluster.json"
@@ -79,6 +83,30 @@ hash = "a3158163f5ceab7d4c16e8569a9542b819ccc658d0435fcb5f5c322b00970edf"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/budding_fluorite.png"
 hash = "001305a85515d8bd8a3b9d7294c094702fbef34e65f672c6081fbf3598f1c9af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crushed_andesite.png"
+hash = "ee453ae4a14c20cf80ea709a95b10624707d58ecd3e24d5f77e76b80b50ab51f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crushed_calcite.png"
+hash = "82f458feea157402a574f31ae1c4efbe3da8e2491c89de959969749af5514268"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crushed_diorite.png"
+hash = "b2970a94c387b4f968cc13cf29ce60da8652ce384687a38ff3cceec04bcec7b0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crushed_granite.png"
+hash = "78c49ff027a0095aa690a6bfcbab4b2209fc8afa67e3e8da79f1c4b920ca231d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crushed_limestone.png"
+hash = "43193e586bc0d48bb9f7c86349e8fdcc1fac90aa0dc229bdbc58d83a35d5b10a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crushed_scoria.png"
+hash = "db0f8007e66ba32ff011f8df321abe11516126af2faa590c9f530a4d5a778f7b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/dark_matter_block.png"
@@ -326,11 +354,11 @@ hash = "afb0a6b165ccaeae034cbbb36fb11df0695987e3cb693e80c9d4e4a74ae9a618"
 
 [[files]]
 file = "kubejs/server_scripts/progression/rocks.js"
-hash = "446804a6e6574e7a27498a260332e99704ef76ff8821c17d9344c25e0e14cb36"
+hash = "4875d0238047abef9a9ce1abdcd8e84a09dc76b8028f26a8aa1bba2999bbad74"
 
 [[files]]
 file = "kubejs/server_scripts/progression/sifting.js"
-hash = "d58823268f7da71956be9a3272d43fee97ef1712ceb99443f9ff3aa81b88f994"
+hash = "1a8c94b6cc79e64915214a7468af9e556ffbdcc4f59533a2032b0fb7327da12e"
 
 [[files]]
 file = "kubejs/server_scripts/unbreakable.js"
@@ -343,6 +371,10 @@ hash = "039f74f19319d2d2a9f9a16f4511cf101d2b663b9a6284978283b5b70a37692c"
 [[files]]
 file = "kubejs/startup_scripts/compression.js"
 hash = "4efa854c856c96f8c80a06d3b9b68ce77f2989d77da7f41ed78e3d91f1033d20"
+
+[[files]]
+file = "kubejs/startup_scripts/crushed_rocks.js"
+hash = "7ac46c75c0b3ff8825fa88a566763835b52d2d061b0d816808ba33037fac5770"
 
 [[files]]
 file = "kubejs/startup_scripts/infinity_cells.js"

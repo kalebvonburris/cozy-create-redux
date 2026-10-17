@@ -1,7 +1,9 @@
 // Sifting and splashing.
 //
 // Every sift gives one output plus XP nuggets, scaled by the mesh ladder:
-// base n x mesh multiplier per block. Sifting never gives pebbles.
+// base n x mesh multiplier per block. Sifting never gives pebbles. Rocks are
+// sifted as their crushed block (gravel, sand, soul sand and dust already
+// are one).
 // Splashing is the no-sifter early route: the densest metal, as raw ore.
 
 // Mesh ladder. Advanced meshes only fit the brass sifter (the mod enforces it).
@@ -22,13 +24,37 @@ const SIFT_XP = 0.1;
 
 // input -> output, n
 const SIFT_TABLE = [
-  { input: "minecraft:gravel", output: "createsifter:raw_iron_piece", n: SIFT_N },
+  {
+    input: "minecraft:gravel",
+    output: "createsifter:raw_iron_piece",
+    n: SIFT_N,
+  },
   { input: "minecraft:sand", output: "createsifter:raw_zinc_piece", n: SIFT_N },
-  { input: "minecraft:andesite", output: "createsifter:raw_iron_piece", n: SIFT_N },
-  { input: "create:limestone", output: "createsifter:raw_zinc_piece", n: SIFT_N },
-  { input: "minecraft:basalt", output: "createsifter:raw_copper_piece", n: SIFT_N },
-  { input: "minecraft:granite", output: "createsifter:raw_gold_piece", n: SIFT_N },
-  { input: "minecraft:diorite", output: "minecraft:amethyst_shard", n: SIFT_N },
+  {
+    input: "kubejs:crushed_andesite",
+    output: "createsifter:raw_iron_piece",
+    n: SIFT_N,
+  },
+  {
+    input: "kubejs:crushed_limestone",
+    output: "createsifter:raw_zinc_piece",
+    n: SIFT_N,
+  },
+  {
+    input: "createsifter:crushed_basalt",
+    output: "createsifter:raw_copper_piece",
+    n: SIFT_N,
+  },
+  {
+    input: "kubejs:crushed_granite",
+    output: "createsifter:raw_gold_piece",
+    n: SIFT_N,
+  },
+  {
+    input: "kubejs:crushed_diorite",
+    output: "minecraft:amethyst_shard",
+    n: SIFT_N,
+  },
   { input: "minecraft:soul_sand", output: "minecraft:quartz", n: SIFT_N },
   { input: "createsifter:dust", output: "minecraft:bone_meal", n: 0.5 },
 ];

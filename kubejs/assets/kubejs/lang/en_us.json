@@ -60,5 +60,11 @@
   "block.kubejs.small_fluorite_bud": "Small Fluorite Bud",
   "block.kubejs.medium_fluorite_bud": "Medium Fluorite Bud",
   "block.kubejs.large_fluorite_bud": "Large Fluorite Bud",
-  "block.kubejs.fluorite_cluster": "Fluorite Cluster"
+  "block.kubejs.fluorite_cluster": "Fluorite Cluster",
+  "block.kubejs.crushed_andesite": "Crushed Andesite",
+  "block.kubejs.crushed_diorite": "Crushed Diorite",
+  "block.kubejs.crushed_granite": "Crushed Granite",
+  "block.kubejs.crushed_calcite": "Crushed Calcite",
+  "block.kubejs.crushed_limestone": "Crushed Limestone",
+  "block.kubejs.crushed_scoria": "Crushed Scoria"
 }

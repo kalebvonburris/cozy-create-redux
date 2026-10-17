@@ -1,23 +1,57 @@
 // Rocks and pebbles.
 //
-// Crushing a rock (millstone or crushing wheel, same output) gives 2-5 of
-// its pebbles. Pebbles plus a seed are compacted into the next rock. 9
+// Crushing a rock (millstone or crushing wheel, same output) gives 1 of its
+// crushed rock; crushing that gives 2-5 of its pebbles. Crushed rocks are
+// what gets sifted. Pebbles plus a seed are compacted into the next rock. 9
 // pebbles recover 1 of their rock; 16 of any kind make a dust block.
 
-// rock -> its pebble, for every rock that crushes into pebbles.
+// rock -> crushed rock -> pebble. Cobble has no crushed step yet: it still
+// crushes straight to pebbles + gravel.
 const ROCK_PEBBLES = [
   { rock: "minecraft:cobblestone", pebble: "createsifter:stone_pebble" },
-  { rock: "minecraft:andesite", pebble: "createsifter:andesite_pebble" },
-  { rock: "minecraft:diorite", pebble: "createsifter:diorite_pebble" },
-  { rock: "minecraft:granite", pebble: "createsifter:granite_pebble" },
-  { rock: "minecraft:calcite", pebble: "createsifter:calcite_pebble" },
-  { rock: "minecraft:basalt", pebble: "createsifter:basalt_pebble" },
-  { rock: "create:limestone", pebble: "kubejs:limestone_pebble" },
-  { rock: "create:scoria", pebble: "kubejs:scoria_pebble" },
-  { rock: "minecraft:netherrack", pebble: "kubejs:netherrack_pebble" },
+  {
+    rock: "minecraft:andesite",
+    crushed: "kubejs:crushed_andesite",
+    pebble: "createsifter:andesite_pebble",
+  },
+  {
+    rock: "minecraft:diorite",
+    crushed: "kubejs:crushed_diorite",
+    pebble: "createsifter:diorite_pebble",
+  },
+  {
+    rock: "minecraft:granite",
+    crushed: "kubejs:crushed_granite",
+    pebble: "createsifter:granite_pebble",
+  },
+  {
+    rock: "minecraft:calcite",
+    crushed: "kubejs:crushed_calcite",
+    pebble: "createsifter:calcite_pebble",
+  },
+  {
+    rock: "minecraft:basalt",
+    crushed: "createsifter:crushed_basalt",
+    pebble: "createsifter:basalt_pebble",
+  },
+  {
+    rock: "create:limestone",
+    crushed: "kubejs:crushed_limestone",
+    pebble: "kubejs:limestone_pebble",
+  },
+  {
+    rock: "create:scoria",
+    crushed: "kubejs:crushed_scoria",
+    pebble: "kubejs:scoria_pebble",
+  },
+  {
+    rock: "minecraft:netherrack",
+    crushed: "createsifter:crushed_netherrack",
+    pebble: "kubejs:netherrack_pebble",
+  },
 ];
 
-// Extra outputs on top of the pebbles.
+// Extra outputs on top of the pebbles (on the crushed -> pebbles step).
 const ROCK_EXTRAS = {
   // Cobble still breaks down to gravel.
   "minecraft:cobblestone": [{ id: "minecraft:gravel" }],
@@ -88,7 +122,7 @@ ServerEvents.recipes((event) => {
 
   ROCK_PEBBLES.forEach((r) => {
     let name = r.rock.split(":")[1];
-    let results = [
+    let pebbles = [
       { count: 2, id: r.pebble },
       { chance: 0.5, id: r.pebble },
       { chance: 0.5, id: r.pebble },
@@ -96,14 +130,35 @@ ServerEvents.recipes((event) => {
     ].concat(ROCK_EXTRAS[r.rock] || []);
 
     ["crushing", "milling"].forEach((type) => {
-      event
-        .custom({
-          type: "create:" + type,
-          ingredients: [{ item: r.rock }],
-          processing_time: 250,
-          results: results,
-        })
-        .id("cozy:progression/" + type + "/" + name);
+      if (r.crushed) {
+        // rock -> 1 crushed rock
+        event
+          .custom({
+            type: "create:" + type,
+            ingredients: [{ item: r.rock }],
+            processing_time: 250,
+            results: [{ id: r.crushed }],
+          })
+          .id("cozy:progression/" + type + "/" + name);
+        // crushed rock -> pebbles
+        event
+          .custom({
+            type: "create:" + type,
+            ingredients: [{ item: r.crushed }],
+            processing_time: 250,
+            results: pebbles,
+          })
+          .id("cozy:progression/" + type + "/crushed_" + name);
+      } else {
+        event
+          .custom({
+            type: "create:" + type,
+            ingredients: [{ item: r.rock }],
+            processing_time: 250,
+            results: pebbles,
+          })
+          .id("cozy:progression/" + type + "/" + name);
+      }
     });
 
     // Recovery: 9 pebbles back into their rock.
@@ -133,7 +188,9 @@ ServerEvents.recipes((event) => {
   );
   rock(
     "minecraft:calcite",
-    items("createsifter:stone_pebble", 6).concat(items("minecraft:bone_meal", 2)),
+    items("createsifter:stone_pebble", 6).concat(
+      items("minecraft:bone_meal", 2),
+    ),
   );
   rock(
     "minecraft:diorite",
@@ -143,7 +200,9 @@ ServerEvents.recipes((event) => {
   );
   rock(
     "minecraft:granite",
-    items("createsifter:diorite_pebble", 6).concat(items("minecraft:quartz", 2)),
+    items("createsifter:diorite_pebble", 6).concat(
+      items("minecraft:quartz", 2),
+    ),
   );
   // Sedimentary: calcite settled out of water and pressed.
   rock(
