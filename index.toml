@@ -432,6 +432,11 @@ hash = "f7efd7092e12726923d7bde63bdfa648280f3035f4f9f3341047743cbac1b22a"
 metafile = true
 
 [[files]]
+file = "mods/agritech.pw.toml"
+hash = "0fc71256a38d890e80c785bf16bd0e70fa15d7c1c3111e5767aadd2ec4a9ee7a"
+metafile = true
+
+[[files]]
 file = "mods/almostunified.pw.toml"
 hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
 metafile = true
