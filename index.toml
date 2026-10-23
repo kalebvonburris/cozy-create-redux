@@ -882,11 +882,6 @@ hash = "2ffd0c6ed2e981835168a60cb3418482223ee02d22dd35d0bb541774fa89f81c"
 metafile = true
 
 [[files]]
-file = "mods/jeioptimizer.pw.toml"
-hash = "c2390eb3971a681c0789fb274f139809bfe3d8b675452ffc1486dbc46a64d117"
-metafile = true
-
-[[files]]
 file = "mods/just-enough-mekanism-multiblocks.pw.toml"
 hash = "f1ea6ce3347c52e404cb9cc542cf94c93999f441b6215970db1b6ef98605402f"
 metafile = true
