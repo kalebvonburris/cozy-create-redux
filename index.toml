@@ -432,8 +432,8 @@ hash = "f7efd7092e12726923d7bde63bdfa648280f3035f4f9f3341047743cbac1b22a"
 metafile = true
 
 [[files]]
-file = "mods/agritech.pw.toml"
-hash = "0fc71256a38d890e80c785bf16bd0e70fa15d7c1c3111e5767aadd2ec4a9ee7a"
+file = "mods/agritech-evolved.pw.toml"
+hash = "2928c9df964b541a2304705acca240bd10514c6e3c5de1a976aae17a10f6ae7d"
 metafile = true
 
 [[files]]
