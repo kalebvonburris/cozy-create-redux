@@ -443,7 +443,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "4cb9e0308bc1dd4fd88d67850fb144f4f53a9bc80bb366a9f63898276583a092"
+hash = "a5790fe79f19f2dce6e338ff1816de732be5a941186da6f59659b2eb09f0b384"
 metafile = true
 
 [[files]]
@@ -573,7 +573,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "d2489e0a87637163f95389ebc06a133cc9f93f06bebf221b660d51216f5b2134"
+hash = "50f0fe22bec82ed6336a259931394271a1ebb71bb77e682ee233d96134305ccd"
 metafile = true
 
 [[files]]
@@ -823,7 +823,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "bc3920a3fb291a8bc8df9717233e54dd1c909b65528afbe1b617373c7b4b38c0"
+hash = "d897a4efe0291252e8d9f6d1db8c6513074fe4cbfeb27fafc041bc145ca35e24"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/jeioptimizer.pw.toml"
-hash = "df85c6775ba7fa2903e2357f85c55ef44548467979c963606359a10248499323"
+hash = "c2390eb3971a681c0789fb274f139809bfe3d8b675452ffc1486dbc46a64d117"
 metafile = true
 
 [[files]]
@@ -1018,7 +1018,7 @@ metafile = true
 
 [[files]]
 file = "mods/neruina.pw.toml"
-hash = "d7d68978272c972825e70438bd280c37232a506fa3c8c51d812206cb8d85e135"
+hash = "2dec6835297e950b5df86d8a879e97e279b5698d14c599c5a2a192918312c5c8"
 metafile = true
 
 [[files]]
@@ -1028,12 +1028,12 @@ metafile = true
 
 [[files]]
 file = "mods/omni-upgrades.pw.toml"
-hash = "25596f0c88f9481d7599baaffa74b3a99ab8db1afefd00bff7b1b5d45f156f6a"
+hash = "4d34d8179e91c53e48284e7af56ebb9a41a9327052abcd3e137e1d29518e8006"
 metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "253a0406b852eabd99eae30dcf51495cf739334033226e2253e5c5435ae333c1"
+hash = "7ca184ae30153e0128135b28491c4b7da04133ebf8222ab82133cdb2d9d155da"
 metafile = true
 
 [[files]]
@@ -1073,7 +1073,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "0a04f1d0b86262c6dfdbd14e0493d7f4786f24054a95a07ff7b41a7870bb258d"
+hash = "2e0b31d4a3d4298045b368558ce7fe191a13bccb02a4524ca748598a9dcf4ca5"
 metafile = true
 
 [[files]]
@@ -1148,12 +1148,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "8b40a946e889b44feb2fa3b3f4876ca30f7e276e420b8b8b8b1f2051180c0418"
+hash = "e71aedefbc645a4c7081af6fd02e49ef4bda9f4ee2b8371300f3614a12cc4813"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "e4bdcd14cc0c3ebd4f44c55082901a76bb7ccebe155f5b0c971f0a99e4062821"
+hash = "c30047d121e76400125d65f9aee8be37979ad04304b97d7628bdd7721ddfd048"
 metafile = true
 
 [[files]]
@@ -1168,12 +1168,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "9f50efe25b9ab10d111c215989b60adcfd2cc7d7caa9d9cc5d4c1e525125fea6"
+hash = "d1df26ad7ced9b9c985061718398b21cdced213ad8240efba9b38b27461708b8"
 metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "cf4e5f63253b423171e41bbe4a55891a48cbabd9cb029952f7c8df70d74553b7"
+hash = "3843deef9e2722fe4111e59d46c07015980f3120e10bb5a56a5818a60b5b78e8"
 metafile = true
 
 [[files]]

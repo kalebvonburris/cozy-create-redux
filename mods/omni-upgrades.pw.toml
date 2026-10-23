@@ -1,13 +1,13 @@
 name = "Omni Upgrades"
-filename = "omni_upgrades-1.0.3-1.21.1.jar"
+filename = "omni_upgrades-1.0.4-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jaXalC9h/versions/teL7332p/omni_upgrades-1.0.3-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/jaXalC9h/versions/yMfRAaz4/omni_upgrades-1.0.4-1.21.1.jar"
 hash-format = "sha512"
-hash = "d586b6006f7690353c4b4e7dee48df1ebc970b00fab6491b93c734db004e1b1e7145c78b3a8d32d22ba276440fcb83580ce7f0b69425bed6722098b1b14b6ddd"
+hash = "300cbe7da9db2a613cb791dab573bae727765eda7fed6342f46b63788ec9825c24ba9f5215af9673d1d7f3fd5fa578c26cc15e2a8e35c17d0f74cd3441e92239"
 
 [update]
 [update.modrinth]
 mod-id = "jaXalC9h"
-version = "teL7332p"
+version = "yMfRAaz4"
